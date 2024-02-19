@@ -1,0 +1,16 @@
+{
+  "name": "enter-mobile-analytics-microservice-scraper",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.1.0"
+  }
+}
