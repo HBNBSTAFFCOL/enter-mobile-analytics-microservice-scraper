@@ -10,14 +10,14 @@ const browser = await puppeteer.launch({
 const page = await browser.newPage();
 page.setDefaultNavigationTimeout(0);
 
-// Tell the tab to navigate to the JavaScript topic page.
+// Tell the tab to navigate to the mobile phone page.
 await page.goto('https://www.gsmarena.com/');
 
 page.waitForSelector("#body > aside > div.brandmenu-v2.light.l-box.clearfix");
 
-const marks = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.clearfix > ul > li', (marks) => {
-    return marks.map($mark => {
-        const $link = $mark.querySelector("a")
+const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.clearfix > ul > li', (brands) => {
+    return brands.map($brand => {
+        const $link = $brand.querySelector("a");
 
         const toText = (element) => element && element.innerText.trim();
         const getPath = (element) => element && element.getAttribute('href').trim();
@@ -29,7 +29,6 @@ const marks = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.cl
     });
 });
 
-console.log(marks);
-
+console.log(brands);
 // Turn off the browser to clean up after ourselves.
 await browser.close();
