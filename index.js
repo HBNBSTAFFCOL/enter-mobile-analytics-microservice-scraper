@@ -36,7 +36,7 @@ const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.c
 //console.log(brands);
 // test to get the phat from de variable "brand"
 
-// capture of brand types and path
+// capture of brand references and path
 
 //console.log(brands);
 const data = [];
