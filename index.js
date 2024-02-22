@@ -10,9 +10,13 @@ const browser = await puppeteer.launch({
 const page = await browser.newPage();
 page.setDefaultNavigationTimeout(0);
 
-// Tell the tab to navigate to the mobile phone page.
-await page.goto('https://www.gsmarena.com/');
+// URL page to scrap data
+const mainPage = 'https://www.gsmarena.com/';
 
+// Tell the tab to navigate to the mobile phone page.
+await page.goto(mainPage);
+
+// capture of brand and the path
 page.waitForSelector("#body > aside > div.brandmenu-v2.light.l-box.clearfix");
 
 const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.clearfix > ul > li', (brands) => {
@@ -29,6 +33,25 @@ const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.c
     });
 });
 
-console.log(brands);
+//console.log(brands);
+// test to get the phat from de variable "brand"
+
+// capture of brand types and path
+
+//console.log(brands);
+const data = []
+
+for (const key of brands) {
+    const { path, name } = key;
+    await page.goto(`${mainPage}/${path}`);
+/*
+    data.push({
+            celulares: [],
+            marca: name,
+        })
+*/
+}
+
+console.log(data)
 // Turn off the browser to clean up after ourselves.
 await browser.close();
