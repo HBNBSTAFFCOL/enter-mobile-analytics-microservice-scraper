@@ -39,17 +39,30 @@ const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.c
 // capture of brand types and path
 
 //console.log(brands);
-const data = []
+const data = [];
 
 for (const key of brands) {
     const { path, name } = key;
     await page.goto(`${mainPage}/${path}`);
-/*
+    page.waitForSelector("#review-body > div");
+
+    const references = await page.$$eval('#review-body > div > ul > li', (references) => {
+        return references.map($reference => {
+            const $link = $reference.querySelector("a");
+    
+            const toText = (element) => element && element.title.trim();
+            const getPath = (element) => element && element.getAttribute('href').trim();
+    
+            return {
+                details: toText($link),
+                path: getPath($link),
+            };
+        });
+    });
     data.push({
-            celulares: [],
+            celulares: references,
             marca: name,
-        })
-*/
+        });
 }
 
 console.log(data)
