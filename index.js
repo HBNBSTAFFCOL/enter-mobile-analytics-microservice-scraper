@@ -12,9 +12,9 @@ page.setDefaultNavigationTimeout(0);
 
 // URL page to scrap data
 const mainPage = 'https://www.gsmarena.com/';
-
 /*
 async function extractData (pathPage, selector, pathData, details = false) {
+    page.setDefaultNavigationTimeout(0);
     // Tell the tab to navigate to the page.
     await page.goto(pathPage);
     // Go to the selector
@@ -43,8 +43,7 @@ async function extractData (pathPage, selector, pathData, details = false) {
 }
 
 const brands = extractData(mainPage, "#body > aside > div.brandmenu-v2.light.l-box.clearfix", '#body > aside > div.brandmenu-v2.light.l-box.clearfix > ul > li');
-*/
-/*
+
 const data = [];
 
 for (const key of brands) {
@@ -78,12 +77,8 @@ const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.c
     });
 });
 
-/*
-// test to get the phat from de variable "brand"
 
 // capture of brand references and path
-
-//console.log(brands);
 const data = [];
 
 for (const key of brands) {
@@ -94,23 +89,24 @@ for (const key of brands) {
     const references = await page.$$eval('#review-body > div > ul > li', (references) => {
         return references.map($reference => {
             const $link = $reference.querySelector("a");
+            const $gDetails = $reference.querySelector("img"); 
     
-            const toText = (element) => element && element.title.trim();
+            const toText = (element) => element && element.getAttribute('title');
             const getPath = (element) => element && element.getAttribute('href').trim();
     
             return {
-                details: toText($link),
+                details: toText($gDetails),
                 path: getPath($link),
             };
         });
     });
     data.push({
+            marca: name,            
             celulares: references,
-            marca: name,
-        });
+    });
 }
-*/
-//console.log(data)
+
+console.log(data[0]);
 // Turn off the browser to clean up after ourselves.
-console.log(brands);
+// console.log(brands);
 await browser.close();
