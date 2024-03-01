@@ -12,49 +12,6 @@ page.setDefaultNavigationTimeout(0);
 
 // URL page to scrap data
 const mainPage = 'https://www.gsmarena.com/';
-/*
-async function extractData (pathPage, selector, pathData, details = false) {
-    page.setDefaultNavigationTimeout(0);
-    // Tell the tab to navigate to the page.
-    await page.goto(pathPage);
-    // Go to the selector
-    page.waitForSelector(selector);
-
-    return await page.$$eval(pathData, (info) => {
-        return info.map($data => {
-            const $link = $data.querySelector("a");
-    
-            const toText = (element) => element && element.innerText.trim();
-            const getPath = (element) => element && element.getAttribute('href').trim();
-            if (details === true) {
-             const toDetails = (element) => element && element.title.trim();
-             return {
-                details: toDetails($link),
-                path: getPath($link), 
-             }
-            }
-
-            return {
-                name: toText($link),
-                path: getPath($link),
-            };
-        });
-    });     
-}
-
-const brands = extractData(mainPage, "#body > aside > div.brandmenu-v2.light.l-box.clearfix", '#body > aside > div.brandmenu-v2.light.l-box.clearfix > ul > li');
-
-const data = [];
-
-for (const key of brands) {
-    const { path, name } = key;
-    const references = extractData(`${mainPage}/${path}`, "#review-body > div", '#review-body > div > ul > li', true);
-    data.push({
-        celulares: references,
-        marca: name,
-    });
-}
-*/
 
 // Tell the tab to navigate to the mobile phone page.
 await page.goto(mainPage);
@@ -78,7 +35,8 @@ const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.c
 });
 
 
-// capture of brand references and path
+// capture of brand the references and path
+
 const data = [];
 
 for (const key of brands) {
@@ -86,27 +44,63 @@ for (const key of brands) {
     await page.goto(`${mainPage}/${path}`);
     page.waitForSelector("#review-body > div");
 
-    const references = await page.$$eval('#review-body > div > ul > li', (references) => {
+    const references = await page.$$eval('#review-body > div > ul > li:nth-child(1)', (references) => {
         return references.map($reference => {
             const $link = $reference.querySelector("a");
-            const $gDetails = $reference.querySelector("img"); 
+            const $Details = $reference.querySelector("img"); 
     
             const toText = (element) => element && element.getAttribute('title');
             const getPath = (element) => element && element.getAttribute('href').trim();
     
             return {
-                details: toText($gDetails),
+                details: toText($Details),
                 path: getPath($link),
             };
         });
     });
     data.push({
-            marca: name,            
-            celulares: references,
+            brand: name,            
+            cellphones: references,
     });
 }
 
-console.log(data[0]);
+console.log(data);
+
+//Capture of references the caracteristics
+/*
+const attributes = [];
+
+for (const key of data) {
+    const { brand, cellphones } = key;
+    for (const keyRef of cellphones) {
+        const { details, path } = keyRef;
+        await page.goto(`${mainPage}/${path}`);
+        page.waitForSelector("#specs-list");
+
+        const characteristics = await page.$$eval('#specs-list > table', (characteristic) => {
+            return characteristics.map($characteristic => {
+                const $Tecnology = $characteristic.querySelector("tbody > tr.tr-hover > td.nfo > a");
+                const $Details = $characteristic.querySelector("img"); 
+
+                const toText = (element) => element && element.getAttribute('title');
+                const getPath = (element) => element && element.getAttribute('href').trim();
+    
+                return {
+                    details: toText($gDetails),
+                    path: getPath($link),
+                };
+            });
+        });
+        attributes.push({
+            brand: name,            
+            characteristics: characteristic,
+        });
+    }
+}
+*/
+
 // Turn off the browser to clean up after ourselves.
-// console.log(brands);
+/*
+console.log(brands);
+*/
 await browser.close();
