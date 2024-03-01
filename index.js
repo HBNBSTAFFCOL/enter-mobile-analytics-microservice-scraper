@@ -94,7 +94,7 @@ for (const key of data) {
         });
         attributes.push({
             brand: name,            
-            characteristics: characteristic,
+            characteristics: characteristics,
         });
     }
 }
