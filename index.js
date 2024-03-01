@@ -79,15 +79,16 @@ for (const key of data) {
 
         const characteristics = await page.$$eval('#specs-list > table', (characteristic) => {
             return characteristics.map($characteristic => {
-                const $Tecnology = $characteristic.querySelector("tbody > tr.tr-hover > td.nfo > a");
-                const $Details = $characteristic.querySelector("img"); 
+                const $HeadTable = $characteristic.querySelector("tbody > tr.tr-hover > th");
+                const $Attribute = $characteristic.querySelector("tbody > tr.tr-hover > td.ttl > a");
+                const $Data = $characteristic.querySelector("tbody > tr > td.nfo");
 
-                const toText = (element) => element && element.getAttribute('title');
-                const getPath = (element) => element && element.getAttribute('href').trim();
+                const toText = (element) => element && element.innerText.trim();
     
                 return {
-                    details: toText($gDetails),
-                    path: getPath($link),
+                    headTable: toText($HeadTable),
+                    attribute: toText($Attribute),
+                    data: toText($Data),
                 };
             });
         });
