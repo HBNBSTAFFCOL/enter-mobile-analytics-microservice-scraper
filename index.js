@@ -18,6 +18,7 @@ await page.goto(mainPage);
 
 
 // capture of brand and the path
+
 page.waitForSelector("#body > aside > div.brandmenu-v2.light.l-box.clearfix");
 
 const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.clearfix > ul > li', (brands) => {
@@ -44,10 +45,11 @@ for (const key of brands) {
     await page.goto(`${mainPage}/${path}`);
     page.waitForSelector("#review-body > div");
 
-    const references = await page.$$eval('#review-body > div > ul > li:nth-child(1)', (references) => {
+    const references = await page.$$eval('#review-body > div > ul > li', (references) => {
         return references.map($reference => {
             const $link = $reference.querySelector("a");
-            const $Details = $reference.querySelector("img"); 
+            const $Details = $reference.querySelector("img");
+            const $NameReference = $reference.querySelector("a > strong > span"); 
     
             const toText = (element) => element && element.getAttribute('title');
             const getPath = (element) => element && element.getAttribute('href').trim();
@@ -55,6 +57,7 @@ for (const key of brands) {
             return {
                 details: toText($Details),
                 path: getPath($link),
+                name: toText($NameReference),
             };
         });
     });
@@ -64,16 +67,14 @@ for (const key of brands) {
     });
 }
 
-console.log(data);
-
 //Capture of references the caracteristics
 /*
 const attributes = [];
 
-for (const key of data) {
+for (const key of data[0]) {
     const { brand, cellphones } = key;
-    for (const keyRef of cellphones) {
-        const { details, path } = keyRef;
+    for (const keyRef of cellphones[0]) {
+        const { details, path, name } = keyRef;
         await page.goto(`${mainPage}/${path}`);
         page.waitForSelector("#specs-list");
 
@@ -93,15 +94,17 @@ for (const key of data) {
             });
         });
         attributes.push({
-            brand: name,            
+            brand: brand,
+            reference: name,            
             characteristics: characteristics,
         });
     }
 }
 */
+//output scrap information
+console.log(brands);
+console.log(data[0]);
+//console.log(attributes[0]);
 
 // Turn off the browser to clean up after ourselves.
-/*
-console.log(brands);
-*/
 await browser.close();
