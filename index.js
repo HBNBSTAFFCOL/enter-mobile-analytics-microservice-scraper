@@ -40,8 +40,11 @@ const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.c
 
 const data = [];
 
-for (const key of brands) {
-    const { path, name } = key;
+//for (const key of brands) {
+    const key = brands[0];
+    //const { path, name } = key;
+    const path = key.path;
+    const name = key.name;
     await page.goto(`${mainPage}/${path}`);
     page.waitForSelector("#review-body > div");
 
@@ -51,11 +54,12 @@ for (const key of brands) {
             const $Details = $reference.querySelector("img");
             const $NameReference = $reference.querySelector("a > strong > span"); 
     
-            const toText = (element) => element && element.getAttribute('title');
+            const toTitle = (element) => element && element.getAttribute('title');
             const getPath = (element) => element && element.getAttribute('href').trim();
+            const toText = (element) => element && element.innerText.trim();
     
             return {
-                details: toText($Details),
+                details: toTitle($Details),
                 path: getPath($link),
                 name: toText($NameReference),
             };
@@ -65,20 +69,20 @@ for (const key of brands) {
             brand: name,            
             cellphones: references,
     });
-}
+//}
 
 //Capture of references the caracteristics
 /*
 const attributes = [];
 
-for (const key of data[0]) {
+for (const key of data) {
     const { brand, cellphones } = key;
-    for (const keyRef of cellphones[0]) {
+    for (const keyRef of cellphones) {
         const { details, path, name } = keyRef;
         await page.goto(`${mainPage}/${path}`);
         page.waitForSelector("#specs-list");
 
-        const characteristics = await page.$$eval('#specs-list > table', (characteristic) => {
+        const characteristics = await page.$$eval('#specs-list > table', (characteristics) => {
             return characteristics.map($characteristic => {
                 const $HeadTable = $characteristic.querySelector("tbody > tr.tr-hover > th");
                 const $Attribute = $characteristic.querySelector("tbody > tr.tr-hover > td.ttl > a");
@@ -97,6 +101,7 @@ for (const key of data[0]) {
             brand: brand,
             reference: name,            
             characteristics: characteristics,
+            detail: details,
         });
     }
 }
