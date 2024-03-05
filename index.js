@@ -72,6 +72,54 @@ for (const key of brands) {
 }
 
 //Capture of references the caracteristics
+
+const attributes = [];
+
+async function processCellphone(keyRef) {
+    const { details, path, name } = keyRef;
+    await page.goto(`${mainPage}/${path}`);
+    await page.waitForSelector("#specs-list");
+
+    const characteristics = await page.$$eval('#specs-list > table', (characteristics) => {
+        return characteristics.map($characteristic => {
+            const $HeadTable = $characteristic.querySelector("tbody > tr.tr-hover > th");
+            const $Attribute = $characteristic.querySelector("tbody > tr.tr-hover > td.ttl > a");
+            const $Data = $characteristic.querySelector("tbody > tr > td.nfo");
+
+            const toText = (element) => element && element.innerText.trim();
+
+            return {
+                headTable: toText($HeadTable),
+                attribute: toText($Attribute),
+                data: toText($Data),
+            };
+        });
+    });
+    attributes.push({
+        brand: brand,
+        reference: name,
+        characteristics: characteristics,
+        detail: details,
+    });
+}
+
+async function iterateData() {
+    for (const key of data) {
+        const { brand, cellphones } = key;
+        for (const keyRef of cellphones) {
+            await processCellphone(keyRef);
+        }
+    }
+}
+
+async function main() {
+    await iterateData();
+}
+
+// This will execute the main function after a delay of 1000 milliseconds (1 second)
+setTimeout(main, 1000);
+
+
 /*
 const attributes = [];
 
