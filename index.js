@@ -1,8 +1,21 @@
 import puppeteer from 'puppeteer';
 
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
+// Function to wait for selector with retry mechanism
+async function waitForSelectorWithRetry(page, selector, timeout = 30000, maxRetries = 3) {
+    let attempts = 0;
+    while (attempts < maxRetries) {
+        try {
+            await page.waitForSelector(selector, { timeout });
+            return; // Selector found, exit function
+        } catch (error) {
+            attempts++;
+            console.error(`Attempt ${attempts}: Timeout waiting for ${selector}`);
+            // Optionally, add a delay before retrying to avoid overwhelming the server
+            await new Promise(resolve => setTimeout(resolve, 2000)); // Wait for 2 seconds before retrying
+        }
+    }
+    throw new Error(`Exceeded maximum number of retries (${maxRetries}) waiting for ${selector}`);
+}
 
 // Open the installed Chromium. We use headless: false
 // to be able to inspect the browser window.
@@ -48,7 +61,8 @@ for (const key of brands) {
     const { path, name } = key;
 
     await page.goto(`${mainPage}/${path}`);
-    page.waitForSelector("#review-body > div");
+    await waitForSelectorWithRetry(page, "#review-body > div");
+    //page.waitForSelector("#review-body > div");
 
     const data = await page.$$eval('#review-body > div > ul > li', (data) => {
         return data.map($reference => {
@@ -74,15 +88,16 @@ for (const key of brands) {
             cellphones: data,
     });
 }
-/*
-//Capture of references the caracteristics
 
-for (const key of data) {
+//Capture each references spec
+
+for (const key of references) {
     const { brand, cellphones } = key;
     for (const keyRef of cellphones) {
-        const { details, path, name } = keyRef;
+        const { details, path, name, image } = keyRef;
         await page.goto(`${mainPage}/${path}`);
-        page.waitForSelector("#specs-list");
+        await waitForSelectorWithRetry(page, "#specs-list");
+        //page.waitForSelector("#specs-list");
 
         const data = await page.$$eval('#specs-list > table', (data) => {
             return data.map($characteristic => {
@@ -95,7 +110,7 @@ for (const key of data) {
                 return {
                     headTable: toText($HeadTable),
                     attribute: toText($Attribute),
-                    data: toText($Data),
+                    characteristics: toText($Data),
                 };
             });
         });
@@ -104,10 +119,11 @@ for (const key of data) {
             reference: name,            
             spec: data,
             detail: details,
+            image: image,
         });
+        await new Promise(r => setTimeout(r, 1000));
     }
 }
-*/
 
 // Turn off the browser to clean up after ourselves.
 await browser.close();
@@ -115,4 +131,4 @@ await browser.close();
 //output scrap information
 console.log(brands);
 console.log(references);
-//console.log(spec[0]);
+console.log(spec[0]);
