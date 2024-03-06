@@ -1,5 +1,9 @@
 import puppeteer from 'puppeteer';
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
 // Open the installed Chromium. We use headless: false
 // to be able to inspect the browser window.
 const browser = await puppeteer.launch({
@@ -12,6 +16,10 @@ page.setDefaultNavigationTimeout(0);
 
 // URL page to scrap data
 const mainPage = 'https://www.gsmarena.com/';
+
+//Main variables
+const references = [];
+const spec = [];
 
 // Tell the tab to navigate to the mobile phone page.
 await page.goto(mainPage);
@@ -36,18 +44,14 @@ const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.c
 
 // capture of brand the references and path
 
-const data = [];
-
 for (const key of brands) {
-    //const key = brands[0];
     const { path, name } = key;
-    //const path = key.path;
-    //const name = key.name;
+
     await page.goto(`${mainPage}/${path}`);
     page.waitForSelector("#review-body > div");
 
-    const references = await page.$$eval('#review-body > div > ul > li', (references) => {
-        return references.map($reference => {
+    const data = await page.$$eval('#review-body > div > ul > li', (data) => {
+        return data.map($reference => {
             const $link = $reference.querySelector("a");
             const $Details = $reference.querySelector("img");
             const $NameReference = $reference.querySelector("a > strong > span"); 
@@ -65,63 +69,13 @@ for (const key of brands) {
             };
         });
     });
-    data.push({
+    references.push({
             brand: name,            
-            cellphones: references,
+            cellphones: data,
     });
 }
-
-//Capture of references the caracteristics
-
-const attributes = [];
-
-async function processCellphone(keyRef) {
-    const { details, path, name } = keyRef;
-    await page.goto(`${mainPage}/${path}`);
-    await page.waitForSelector("#specs-list");
-
-    const characteristics = await page.$$eval('#specs-list > table', (characteristics) => {
-        return characteristics.map($characteristic => {
-            const $HeadTable = $characteristic.querySelector("tbody > tr.tr-hover > th");
-            const $Attribute = $characteristic.querySelector("tbody > tr.tr-hover > td.ttl > a");
-            const $Data = $characteristic.querySelector("tbody > tr > td.nfo");
-
-            const toText = (element) => element && element.innerText.trim();
-
-            return {
-                headTable: toText($HeadTable),
-                attribute: toText($Attribute),
-                data: toText($Data),
-            };
-        });
-    });
-    attributes.push({
-        brand: brand,
-        reference: name,
-        characteristics: characteristics,
-        detail: details,
-    });
-}
-
-async function iterateData() {
-    for (const key of data) {
-        const { brand, cellphones } = key;
-        for (const keyRef of cellphones) {
-            await processCellphone(keyRef);
-        }
-    }
-}
-
-async function main() {
-    await iterateData();
-}
-
-// This will execute the main function after a delay of 1000 milliseconds (1 second)
-setTimeout(main, 1000);
-
-
 /*
-const attributes = [];
+//Capture of references the caracteristics
 
 for (const key of data) {
     const { brand, cellphones } = key;
@@ -130,10 +84,10 @@ for (const key of data) {
         await page.goto(`${mainPage}/${path}`);
         page.waitForSelector("#specs-list");
 
-        const characteristics = await page.$$eval('#specs-list > table', (characteristics) => {
-            return characteristics.map($characteristic => {
+        const data = await page.$$eval('#specs-list > table', (data) => {
+            return data.map($characteristic => {
                 const $HeadTable = $characteristic.querySelector("tbody > tr.tr-hover > th");
-                const $Attribute = $char    acteristic.querySelector("tbody > tr.tr-hover > td.ttl > a");
+                const $Attribute = $characteristic.querySelector("tbody > tr.tr-hover > td.ttl > a");
                 const $Data = $characteristic.querySelector("tbody > tr > td.nfo");
 
                 const toText = (element) => element && element.innerText.trim();
@@ -145,20 +99,20 @@ for (const key of data) {
                 };
             });
         });
-        attributes.push({
+        spec.push({
             brand: brand,
             reference: name,            
-            characteristics: characteristics,
+            spec: data,
             detail: details,
         });
     }
 }
 */
 
-//output scrap information
-console.log(brands);
-console.log(data[0]);
-/*console.log(attributes[0]);*/
-
 // Turn off the browser to clean up after ourselves.
 await browser.close();
+
+//output scrap information
+console.log(brands);
+console.log(references);
+//console.log(spec[0]);
