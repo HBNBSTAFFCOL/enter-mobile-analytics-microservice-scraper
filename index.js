@@ -1,5 +1,6 @@
 import puppeteer from 'puppeteer';
 import { JsonFileStorage } from './crud.file';
+import { MyCLI } from './commands';
 
 
 // Example usage:
