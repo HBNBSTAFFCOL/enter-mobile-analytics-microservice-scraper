@@ -1,7 +1,39 @@
 import puppeteer from 'puppeteer';
 
+//Get the brands
+async function getBrands(urlPage) {
+
+    const browser = await puppeteer.launch({
+        headless: false,
+    });
+
+    const page = await browser.newPage();
+    page.setDefaultNavigationTimeout(0);
+
+    await page.goto(urlPage);
+    page.waitForSelector("#body > aside > div.brandmenu-v2.light.l-box.clearfix");
+
+    const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.clearfix > ul > li', (brands) => {
+        return brands.map($brand => {
+            const $link = $brand.querySelector("a");
+
+            const toText = (element) => element && element.innerText.trim();
+            const getPath = (element) => element && element.getAttribute('href').trim();
+
+            return {
+                name: toText($link),
+                path: getPath($link),
+            };
+        });
+    });
+    await browser.close();
+    console.log(brands);
+    return brands;
+}
+
+/*
 // Function to wait for selector with retry mechanism
-async function waitForSelectorWithRetry(page, selector, timeout = 30000, maxRetries = 3) {
+async function waitForSelectorWithRetry(page, selector, timeout = 10000, maxRetries = 3) {
     let attempts = 0;
     while (attempts < maxRetries) {
         try {
@@ -11,16 +43,25 @@ async function waitForSelectorWithRetry(page, selector, timeout = 30000, maxRetr
             attempts++;
             console.error(`Attempt ${attempts}: Timeout waiting for ${selector}`);
             // Optionally, add a delay before retrying to avoid overwhelming the server
-            await new Promise(resolve => setTimeout(resolve, 2000)); // Wait for 2 seconds before retrying
+            await new Promise(resolve => setTimeout(resolve, 1000)); // Wait for 2 seconds before retrying
         }
     }
     throw new Error(`Exceeded maximum number of retries (${maxRetries}) waiting for ${selector}`);
 }
+*/
 
+/*
+//Main variables
+const references = [];
+const spec = [];
+*/
+
+/*
 // Open the installed Chromium. We use headless: false
 // to be able to inspect the browser window.
 const browser = await puppeteer.launch({
-    headless: false
+    headless: false,
+    timeout: 60000,
 });
 
 // Open a new page / tab in the browser.
@@ -29,10 +70,6 @@ page.setDefaultNavigationTimeout(0);
 
 // URL page to scrap data
 const mainPage = 'https://www.gsmarena.com/';
-
-//Main variables
-const references = [];
-const spec = [];
 
 // Tell the tab to navigate to the mobile phone page.
 await page.goto(mainPage);
@@ -54,9 +91,9 @@ const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.c
         };
     });
 });
-
+*/
+/*
 // capture of brand the references and path
-
 for (const key of brands) {
     const { path, name } = key;
 
@@ -79,7 +116,7 @@ for (const key of brands) {
                 details: toTitle($Details),
                 path: getPath($link),
                 name: toText($NameReference),
-	            image: getImage($Details),
+	        image: getImage($Details),
             };
         });
     });
@@ -88,9 +125,9 @@ for (const key of brands) {
             cellphones: data,
     });
 }
-
+*/
+/*
 //Capture each references spec
-
 for (const key of references) {
     const { brand, cellphones } = key;
     for (const keyRef of cellphones) {
@@ -124,11 +161,19 @@ for (const key of references) {
         await new Promise(r => setTimeout(r, 1000));
     }
 }
+*/
 
+const brands = getBrands('https://www.gsmarena.com/');
+console.log(brands);
+
+/*
 // Turn off the browser to clean up after ourselves.
 await browser.close();
+*/
 
+/*
 //output scrap information
 console.log(brands);
 console.log(references);
 console.log(spec[0]);
+*/
