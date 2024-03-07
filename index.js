@@ -1,10 +1,10 @@
 import puppeteer from 'puppeteer';
 import { JsonFileStorage } from './crud.file';
 import { MyCLI } from './commands';
+import { BrandCommand } from './commands/brands';
 
 
 // Example usage:
-const brandsStorage = new JsonFileStorage('brands.json');
 const referencesStorage = new JsonFileStorage('references.json');
 const specStorage = new JsonFileStorage('spec.json');
 
@@ -12,8 +12,7 @@ const specStorage = new JsonFileStorage('spec.json');
 
 // Iniciar la aplicación CLI con los comandos
 new MyCLI({
-    copy: new CopyCommand(),
-    execute: new ExecuteCommand()
+    brand: new BrandCommand(),
 });
 
 /*
