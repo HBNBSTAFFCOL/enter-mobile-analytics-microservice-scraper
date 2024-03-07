@@ -1,34 +1,65 @@
 import puppeteer from 'puppeteer';
+import { JsonFileStorage } from './crud.file';
+
+
+// Example usage:
+const brandsStorage = new JsonFileStorage('brands.json');
+const referencesStorage = new JsonFileStorage('references.json');
+const specStorage = new JsonFileStorage('spec.json');
+
+
+
+// Iniciar la aplicación CLI con los comandos
+new MyCLI({
+    copy: new CopyCommand(),
+    execute: new ExecuteCommand()
+});
+
+/*
+(async () => {
+    // Create operation
+    await storage.create({ id: 1, name: "Example" });
+
+    // Read operation
+    const allData = await storage.read();
+    console.log(allData);
+
+    // Update operation
+    await storage.update({ id: 1, name: "Updated Example" });
+
+    // Delete operation
+    await storage.delete(1);
+})();
+*/
 
 //Get the brands
 async function getBrands(urlPage) {
-
-    const browser = await puppeteer.launch({
-        headless: false,
-    });
-
-    const page = await browser.newPage();
-    page.setDefaultNavigationTimeout(0);
-
-    await page.goto(urlPage);
-    page.waitForSelector("#body > aside > div.brandmenu-v2.light.l-box.clearfix");
-
-    const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.clearfix > ul > li', (brands) => {
-        return brands.map($brand => {
-            const $link = $brand.querySelector("a");
-
-            const toText = (element) => element && element.innerText.trim();
-            const getPath = (element) => element && element.getAttribute('href').trim();
-
-            return {
-                name: toText($link),
-                path: getPath($link),
-            };
+        const browser = await puppeteer.launch({
+            headless: false,
         });
-    });
-    await browser.close();
-    console.log(brands);
-    return brands;
+
+        const page = await browser.newPage();
+        page.setDefaultNavigationTimeout(0);
+
+        await page.goto(urlPage);
+        page.waitForSelector("#body > aside > div.brandmenu-v2.light.l-box.clearfix");
+
+        const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.clearfix > ul > li', (brands) => {
+            return brands.map($brand => {
+                const $link = $brand.querySelector("a");
+
+                const toText = (element) => element && element.innerText.trim();
+                const getPath = (element) => element && element.getAttribute('href').trim();
+
+                return {
+                    name: toText($link),
+                    path: getPath($link),
+                };
+            });
+        });
+        await browser.close();
+        console.log(brands);
+        resolve(brands);
 }
 
 /*
