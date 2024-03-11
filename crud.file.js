@@ -1,3 +1,4 @@
+import fs from 'fs';
 const fs = require('fs').promises;
 
 export class JsonFileStorage {

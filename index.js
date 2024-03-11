@@ -1,18 +1,18 @@
-import puppeteer from 'puppeteer';
-import { JsonFileStorage } from './crud.file';
 import { MyCLI } from './commands';
 import { BrandCommand } from './commands/brands';
 
-
+/*
 // Example usage:
 const referencesStorage = new JsonFileStorage('references.json');
 const specStorage = new JsonFileStorage('spec.json');
-
+*/
 
 
 // Iniciar la aplicación CLI con los comandos
 new MyCLI({
     brand: new BrandCommand(),
+    reference: new ReferencesCommand(),
+    spec: new SpecCommand(),
 });
 
 /*
@@ -31,7 +31,7 @@ new MyCLI({
     await storage.delete(1);
 })();
 */
-
+/*
 //Get the brands
 async function getBrands(urlPage) {
         const browser = await puppeteer.launch({
@@ -61,7 +61,7 @@ async function getBrands(urlPage) {
         console.log(brands);
         resolve(brands);
 }
-
+*/
 /*
 // Function to wait for selector with retry mechanism
 async function waitForSelectorWithRetry(page, selector, timeout = 10000, maxRetries = 3) {
@@ -193,10 +193,10 @@ for (const key of references) {
     }
 }
 */
-
+/*
 const brands = getBrands('https://www.gsmarena.com/');
 console.log(brands);
-
+*/
 /*
 // Turn off the browser to clean up after ourselves.
 await browser.close();
