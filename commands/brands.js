@@ -1,4 +1,5 @@
 import { Command } from ".";
+import { JsonFileStorage } from './crud.file';
 import puppeteer from 'puppeteer';
 const brandsStorage = new JsonFileStorage('brands.json');
 
