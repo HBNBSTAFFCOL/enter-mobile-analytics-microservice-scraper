@@ -21,7 +21,7 @@ export class ReferencesCommand extends Command {
             page.waitForSelector("#review-body > div");
         
             const data = await page.$$eval('#review-body > div > ul > li', (data) => {
-                const slice = data.slice(0, 10/*start, end*/);
+                const slice = data.slice(0, 1/*start, end*/);
                 return slice.map($reference => {
                     const $link = $reference.querySelector("a");
                     const $Details = $reference.querySelector("img");
@@ -45,12 +45,12 @@ export class ReferencesCommand extends Command {
                     brand: name,            
                     cellphones: data,
             });
-            await browser.close();
-            console.log(references);
+        }
+        console.log(references);
             for (const reference of references){
                 await config.referencesStorage.create(reference);
             }
-        }
+        await browser.close();
     }
     get usage() {
         return "<reference>"

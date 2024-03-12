@@ -25,19 +25,32 @@ export class SpecCommand extends Command {
                
                 const data = await page.$$eval('#specs-list > table', (data) => {
                     return data.map($characteristic => {
-                        const $HeadTable = $characteristic.querySelector("tbody > tr.tr-hover > th");
-                        const $Attribute = $characteristic.querySelector("tbody > tr.tr-hover > td.ttl > a");
-                        const $Data = $characteristic.querySelector("tbody > tr > td.nfo");
+                        const $HeadTable = $characteristic.querySelector("tbody > tr > th");
+
+                        const atributes = $characteristic.querySelectorAll("tbody > tr");
+                        const charac = Array.from(atributes).map($attribute => {
+                            const $Attributes = $attribute.querySelector("tbody > tr > td.ttl > a");
+                            const $Info = $attribute.querySelector("tbody > tr > td.nfo");
+
+                            const toText = (element) => element && element.innerText.trim();
+
+                            return {
+                                attributes: toText($Attributes),
+                                characteristics: toText($Info),
+                            };
+                        });/*$characteristic.querySelector("tbody > tr > td.ttl > a");*/
+                        /*const $Data = $characteristic.querySelector("tbody > tr > td.nfo");*/
         
                         const toText = (element) => element && element.innerText.trim();
             
                         return {
                             headTable: toText($HeadTable),
-                            attribute: toText($Attribute),
-                            characteristics: toText($Data),
+                            attributes: charac,
+                            /*characteristics: toText($Data),*/
                         };
                     });
                 });
+                
                 spec.push({
                     brand: brand,
                     reference: name,            
@@ -45,13 +58,13 @@ export class SpecCommand extends Command {
                     detail: details,
                     image: image,
                 });
-                await browser.close();
-                console.log(spec);
+            }
+        }
+        await browser.close();
+        console.log(spec);
                 for (const specs of spec){
                     await specStorage.create(specs);
                 }
-            }
-        }
     }
     get usage() {
         return "<spec>"
