@@ -1,5 +1,7 @@
-import { MyCLI } from './commands';
-import { BrandCommand } from './commands/brands';
+import { MyCLI } from './commands/index.mjs';
+import { BrandCommand } from './commands/brands.mjs';
+import { ReferencesCommand } from './commands/references.mjs';
+import { SpecCommand } from './commands/spec.mjs';
 
 /*
 // Example usage:

@@ -1,10 +1,12 @@
-import { Command } from ".";
-import { JsonFileStorage } from './crud.file';
+import { Command } from "./index.mjs";
+import { JsonFileStorage } from './crud.file.mjs';
 import puppeteer from 'puppeteer';
+import { config } from "./config.mjs";
 const specStorage = new JsonFileStorage('spec.json');
 
 export class SpecCommand extends Command {
     async execute(source) {
+        const spec = [];
         const browser = await puppeteer.launch({
             headless: false,
         });
@@ -12,14 +14,15 @@ export class SpecCommand extends Command {
         const page = await browser.newPage();
         page.setDefaultNavigationTimeout(0);
 
-        for (const key of references) {
+        const pathReferences = await config.referencesStorage.read();
+
+        for (const key of pathReferences) {
             const { brand, cellphones } = key;
             for (const keyRef of cellphones) {
                 const { details, path, name, image } = keyRef;
-                await page.goto(`${mainPage}/${path}`);
-                await waitForSelectorWithRetry(page, "#specs-list");
+                await page.goto(`${config.baseURL}/${path}`);
+                page.waitForSelector("#specs-list");
                
-        
                 const data = await page.$$eval('#specs-list > table', (data) => {
                     return data.map($characteristic => {
                         const $HeadTable = $characteristic.querySelector("tbody > tr.tr-hover > th");
@@ -44,9 +47,9 @@ export class SpecCommand extends Command {
                 });
                 await browser.close();
                 console.log(spec);
-                specStorage.map(async (settings, id) => {
-                    await storage.create({ ...settings, id });
-                });
+                for (const specs of spec){
+                    await specStorage.create(specs);
+                }
             }
         }
     }

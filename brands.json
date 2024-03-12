@@ -1,0 +1,182 @@
+[
+  {
+    "id": "SAMSUNG",
+    "name": "SAMSUNG",
+    "path": "samsung-phones-9.php"
+  },
+  {
+    "id": "APPLE",
+    "name": "APPLE",
+    "path": "apple-phones-48.php"
+  },
+  {
+    "id": "HUAWEI",
+    "name": "HUAWEI",
+    "path": "huawei-phones-58.php"
+  },
+  {
+    "id": "NOKIA",
+    "name": "NOKIA",
+    "path": "nokia-phones-1.php"
+  },
+  {
+    "id": "SONY",
+    "name": "SONY",
+    "path": "sony-phones-7.php"
+  },
+  {
+    "id": "LG",
+    "name": "LG",
+    "path": "lg-phones-20.php"
+  },
+  {
+    "id": "HTC",
+    "name": "HTC",
+    "path": "htc-phones-45.php"
+  },
+  {
+    "id": "MOTOROLA",
+    "name": "MOTOROLA",
+    "path": "motorola-phones-4.php"
+  },
+  {
+    "id": "LENOVO",
+    "name": "LENOVO",
+    "path": "lenovo-phones-73.php"
+  },
+  {
+    "id": "XIAOMI",
+    "name": "XIAOMI",
+    "path": "xiaomi-phones-80.php"
+  },
+  {
+    "id": "GOOGLE",
+    "name": "GOOGLE",
+    "path": "google-phones-107.php"
+  },
+  {
+    "id": "HONOR",
+    "name": "HONOR",
+    "path": "honor-phones-121.php"
+  },
+  {
+    "id": "OPPO",
+    "name": "OPPO",
+    "path": "oppo-phones-82.php"
+  },
+  {
+    "id": "REALME",
+    "name": "REALME",
+    "path": "realme-phones-118.php"
+  },
+  {
+    "id": "ONEPLUS",
+    "name": "ONEPLUS",
+    "path": "oneplus-phones-95.php"
+  },
+  {
+    "id": "VIVO",
+    "name": "VIVO",
+    "path": "vivo-phones-98.php"
+  },
+  {
+    "id": "MEIZU",
+    "name": "MEIZU",
+    "path": "meizu-phones-74.php"
+  },
+  {
+    "id": "BLACKBERRY",
+    "name": "BLACKBERRY",
+    "path": "blackberry-phones-36.php"
+  },
+  {
+    "id": "ASUS",
+    "name": "ASUS",
+    "path": "asus-phones-46.php"
+  },
+  {
+    "id": "ALCATEL",
+    "name": "ALCATEL",
+    "path": "alcatel-phones-5.php"
+  },
+  {
+    "id": "ZTE",
+    "name": "ZTE",
+    "path": "zte-phones-62.php"
+  },
+  {
+    "id": "MICROSOFT",
+    "name": "MICROSOFT",
+    "path": "microsoft-phones-64.php"
+  },
+  {
+    "id": "VODAFONE",
+    "name": "VODAFONE",
+    "path": "vodafone-phones-53.php"
+  },
+  {
+    "id": "ENERGIZER",
+    "name": "ENERGIZER",
+    "path": "energizer-phones-106.php"
+  },
+  {
+    "id": "CAT",
+    "name": "CAT",
+    "path": "cat-phones-89.php"
+  },
+  {
+    "id": "SHARP",
+    "name": "SHARP",
+    "path": "sharp-phones-23.php"
+  },
+  {
+    "id": "MICROMAX",
+    "name": "MICROMAX",
+    "path": "micromax-phones-66.php"
+  },
+  {
+    "id": "INFINIX",
+    "name": "INFINIX",
+    "path": "infinix-phones-119.php"
+  },
+  {
+    "id": "ULEFONE",
+    "name": "ULEFONE",
+    "path": "ulefone_-phones-124.php"
+  },
+  {
+    "id": "TECNO",
+    "name": "TECNO",
+    "path": "tecno-phones-120.php"
+  },
+  {
+    "id": "DOOGEE",
+    "name": "DOOGEE",
+    "path": "doogee-phones-129.php"
+  },
+  {
+    "id": "BLACKVIEW",
+    "name": "BLACKVIEW",
+    "path": "blackview-phones-116.php"
+  },
+  {
+    "id": "CUBOT",
+    "name": "CUBOT",
+    "path": "cubot-phones-130.php"
+  },
+  {
+    "id": "OUKITEL",
+    "name": "OUKITEL",
+    "path": "oukitel-phones-132.php"
+  },
+  {
+    "id": "ITEL",
+    "name": "ITEL",
+    "path": "itel-phones-131.php"
+  },
+  {
+    "id": "TCL",
+    "name": "TCL",
+    "path": "tcl-phones-123.php"
+  }
+]

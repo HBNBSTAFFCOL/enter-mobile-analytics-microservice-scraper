@@ -1,5 +1,5 @@
-const fs = require('fs');
-const { exec } = require('child_process');
+//const fs = require('fs');
+//const { exec } = require('child_process');
 
 // Define una interfaz para los comandos
 export class Command {

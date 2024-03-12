@@ -1,5 +1,5 @@
-import fs from 'fs';
-const fs = require('fs').promises;
+import fs from 'fs/promises' ;
+//const fs = require('fs').promises;
 
 export class JsonFileStorage {
     constructor(filePath) {
@@ -8,7 +8,7 @@ export class JsonFileStorage {
 
     async create(data) {
         try {
-            let existingData = await this.read();
+            const existingData = await this.read();
             existingData.push(data);
             await this.write(existingData);
             return true; // Success

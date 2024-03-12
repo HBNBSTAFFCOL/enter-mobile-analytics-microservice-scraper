@@ -1,10 +1,10 @@
-import { Command } from ".";
-import { JsonFileStorage } from './crud.file';
+import { Command } from "./index.mjs";
 import puppeteer from 'puppeteer';
-const referencesStorage = new JsonFileStorage('references.json');
+import { config } from "./config.mjs";
 
 export class ReferencesCommand extends Command {
-    async execute(source) {
+    async execute(source/*start, end*/) {
+        const references = [];
         const browser = await puppeteer.launch({
             headless: false,
         });
@@ -12,14 +12,17 @@ export class ReferencesCommand extends Command {
         const page = await browser.newPage();
         page.setDefaultNavigationTimeout(0);
 
-        for (const key of brands) {
+        const pathBrands = await config.brandsStorage.read();
+
+        for (const key of pathBrands) {
             const { path, name } = key;
         
-            await page.goto(`${mainPage}/${path}`);
-            await waitForSelectorWithRetry(page, "#review-body > div");
+            await page.goto(`${config.baseURL}/${path}`);
+            page.waitForSelector("#review-body > div");
         
             const data = await page.$$eval('#review-body > div > ul > li', (data) => {
-                return data.map($reference => {
+                const slice = data.slice(0, 10/*start, end*/);
+                return slice.map($reference => {
                     const $link = $reference.querySelector("a");
                     const $Details = $reference.querySelector("img");
                     const $NameReference = $reference.querySelector("a > strong > span"); 
@@ -30,10 +33,11 @@ export class ReferencesCommand extends Command {
                     const getImage = (element) => element && element.getAttribute('src');
         
                     return {
+                        id: toText($NameReference),
                         details: toTitle($Details),
                         path: getPath($link),
                         name: toText($NameReference),
-                    image: getImage($Details),
+                        image: getImage($Details),
                     };
                 });
             });
@@ -43,9 +47,9 @@ export class ReferencesCommand extends Command {
             });
             await browser.close();
             console.log(references);
-            referencesStorage.map(async (settings, id) => {
-                await storage.create({ ...settings, id });
-            });
+            for (const reference of references){
+                await config.referencesStorage.create(reference);
+            }
         }
     }
     get usage() {

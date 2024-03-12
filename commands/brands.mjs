@@ -1,7 +1,6 @@
-import { Command } from ".";
-import { JsonFileStorage } from './crud.file';
+import { Command } from "./index.mjs";
 import puppeteer from 'puppeteer';
-const brandsStorage = new JsonFileStorage('brands.json');
+import { config } from "./config.mjs";
 
 export class BrandCommand extends Command {
     async execute(source) {
@@ -12,7 +11,7 @@ export class BrandCommand extends Command {
         const page = await browser.newPage();
         page.setDefaultNavigationTimeout(0);
 
-        await page.goto(urlPage);
+        await page.goto(config.baseURL);
         page.waitForSelector("#body > aside > div.brandmenu-v2.light.l-box.clearfix");
 
         const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.clearfix > ul > li', (brands) => {
@@ -23,6 +22,7 @@ export class BrandCommand extends Command {
                 const getPath = (element) => element && element.getAttribute('href').trim();
 
                 return {
+                    id: toText($link),
                     name: toText($link),
                     path: getPath($link),
                 };
@@ -30,10 +30,9 @@ export class BrandCommand extends Command {
         });
         await browser.close();
         console.log(brands);
-        brandsStorage.map(async (settings, id) => {
-            await storage.create({ ...settings, id });
-        });
-
+        for (const brand of brands){
+            await config.brandsStorage.create(brand);
+        }
 
     }
     get usage() {

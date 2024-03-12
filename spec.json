@@ -1,0 +1,75 @@
+[
+  {
+    "brand": "SAMSUNG",
+    "reference": "Galaxy A55",
+    "spec": [
+      {
+        "headTable": "NETWORK",
+        "attribute": "Technology",
+        "characteristics": "GSM / HSPA / LTE / 5G"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "2024, March 11"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "161.1 x 77.4 x 8.2 mm (6.34 x 3.05 x 0.32 in)"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "Super AMOLED, 120Hz, HDR10+, 1000 nits (HBM)"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "Android 14, One UI 6.1"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "microSDXC (uses shared SIM slot)"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "50 MP, f/1.8, (wide), 1/1.56\", 1.0µm, PDAF, OIS\n12 MP, f/2.2, 123˚ (ultrawide), 1/3.06\", 1.12µm\n5 MP, f/2.4, (macro)"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "32 MP, f/2.2, 26mm (wide), 1/2.74\", 0.8µm"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "Yes, with stereo speakers"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "Fingerprint (under display, optical), accelerometer, gyro, compass, barometer (USA only)"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "5000 mAh, non-removable"
+      },
+      {
+        "headTable": null,
+        "attribute": null,
+        "characteristics": "Iceblue, Lilac, Navy, Lemon"
+      }
+    ],
+    "detail": "Samsung Galaxy A55 Android smartphone. Announced Mar 2024. Features 6.6″  display, Exynos 1480 chipset, 5000 mAh battery, 256 GB storage, 12 GB RAM, Corning Gorilla Glass Victus+.",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a55.jpg"
+  }
+]
