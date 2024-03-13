@@ -15,8 +15,8 @@ export class BrandCommand extends Command {
         page.waitForSelector("#body > aside > div.brandmenu-v2.light.l-box.clearfix");
 
         const brands = await page.$$eval('#body > aside > div.brandmenu-v2.light.l-box.clearfix > ul > li', (brands) => {
-            const slice = brands.slice(0, 1/*start, end*/);
-            return slice.map($brand => {
+            //const slice = brands.slice(0, 5/*start, end*/);
+            return /*slice*/brands.map($brand => {
                 const $link = $brand.querySelector("a");
 
                 const toText = (element) => element && element.innerText.trim();

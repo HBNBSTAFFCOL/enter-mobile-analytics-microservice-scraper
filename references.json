@@ -1,0 +1,1442 @@
+[
+  {
+    "brand": "SAMSUNG",
+    "cellphones": [
+      {
+        "id": "Galaxy A55",
+        "details": "Samsung Galaxy A55 Android smartphone. Announced Mar 2024. Features 6.6″  display, Exynos 1480 chipset, 5000 mAh battery, 256 GB storage, 12 GB RAM, Corning Gorilla Glass Victus+.",
+        "path": "samsung_galaxy_a55-12824.php",
+        "name": "Galaxy A55",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a55.jpg"
+      },
+      {
+        "id": "Galaxy A35",
+        "details": "Samsung Galaxy A35 Android smartphone. Announced Mar 2024. Features 6.6″  display, Exynos 1380 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass Victus+.",
+        "path": "samsung_galaxy_a35-12705.php",
+        "name": "Galaxy A35",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a35.jpg"
+      },
+      {
+        "id": "Galaxy M15",
+        "details": "Samsung Galaxy M15 Android smartphone. Announced Mar 2024. Features 6.5″  display, Dimensity 6100+ chipset, 6000 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "samsung_galaxy_m15-12833.php",
+        "name": "Galaxy M15",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m15.jpg"
+      },
+      {
+        "id": "Galaxy M14 4G",
+        "details": "Samsung Galaxy M14 4G Android smartphone. Announced Mar 2024. Features 6.7″  display, Snapdragon 680 4G chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM.",
+        "path": "samsung_galaxy_m14_4g-12862.php",
+        "name": "Galaxy M14 4G",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m14-4g.jpg"
+      },
+      {
+        "id": "Galaxy F15",
+        "details": "Samsung Galaxy F15 Android smartphone. Announced Mar 2024. Features 6.6″  display, Dimensity 6100+ chipset, 6000 mAh battery, 128 GB storage, 6 GB RAM.",
+        "path": "samsung_galaxy_f15-12831.php",
+        "name": "Galaxy F15",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f15-5g.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "APPLE",
+    "cellphones": [
+      {
+        "id": "iPhone 15 Pro Max",
+        "details": "Apple iPhone 15 Pro Max smartphone. Announced Sep 2023. Features 6.7″  display, Apple A17 Pro chipset, 4441 mAh battery, 1024 GB storage, 8 GB RAM, Ceramic Shield glass.",
+        "path": "apple_iphone_15_pro_max-12548.php",
+        "name": "iPhone 15 Pro Max",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg"
+      },
+      {
+        "id": "iPhone 15 Pro",
+        "details": "Apple iPhone 15 Pro smartphone. Announced Sep 2023. Features 6.1″  display, Apple A17 Pro chipset, 3274 mAh battery, 1024 GB storage, 8 GB RAM, Ceramic Shield glass.",
+        "path": "apple_iphone_15_pro-12557.php",
+        "name": "iPhone 15 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg"
+      },
+      {
+        "id": "iPhone 15 Plus",
+        "details": "Apple iPhone 15 Plus smartphone. Announced Sep 2023. Features 6.7″  display, Apple A16 Bionic chipset, 4383 mAh battery, 512 GB storage, 6 GB RAM, Ceramic Shield glass.",
+        "path": "apple_iphone_15_plus-12558.php",
+        "name": "iPhone 15 Plus",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-plus-.jpg"
+      },
+      {
+        "id": "iPhone 15",
+        "details": "Apple iPhone 15 smartphone. Announced Sep 2023. Features 6.1″  display, Apple A16 Bionic chipset, 3349 mAh battery, 512 GB storage, 6 GB RAM, Ceramic Shield glass.",
+        "path": "apple_iphone_15-12559.php",
+        "name": "iPhone 15",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg"
+      },
+      {
+        "id": "Watch Ultra 2",
+        "details": "Apple Watch Ultra 2 watch. Announced Sep 2023. Features 1.92″  display, Apple S9 chipset, 564 mAh battery, 64 GB storage, MIL-STD 810H certified, Sapphire crystal glass.",
+        "path": "apple_watch_ultra_2-12560.php",
+        "name": "Watch Ultra 2",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-ultra2.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "HUAWEI",
+    "cellphones": [
+      {
+        "id": "Pocket 2",
+        "details": "Huawei Pocket 2 smartphone. Announced Feb 2024. Features 6.94″  display, 4520 mAh battery, 1024 GB storage, 16 GB RAM.",
+        "path": "huawei_pocket_2-12837.php",
+        "name": "Pocket 2",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-pocket2.jpg"
+      },
+      {
+        "id": "Enjoy 70z",
+        "details": "Huawei Enjoy 70z smartphone. Announced Feb 2024. Features 6.75″  display, Kirin 710A chipset, 6000 mAh battery, 256 GB storage.",
+        "path": "huawei_enjoy_70z-12835.php",
+        "name": "Enjoy 70z",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-enjoy-70z.jpg"
+      },
+      {
+        "id": "nova Y72",
+        "details": "Huawei nova Y72 smartphone. Announced Jan 2024. Features 6.75″  display, Kirin 710A chipset, 6000 mAh battery, 128 GB storage, 8 GB RAM.",
+        "path": "huawei_nova_y72-12807.php",
+        "name": "nova Y72",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-enjoy-70.jpg"
+      },
+      {
+        "id": "nova 12 Ultra",
+        "details": "Huawei nova 12 Ultra smartphone. Announced Dec 2023. Features 6.76″  display, Kirin 9000S chipset, 4600 mAh battery, 1024 GB storage, Kunlun Glass.",
+        "path": "huawei_nova_12_ultra-12761.php",
+        "name": "nova 12 Ultra",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-12-ultra.jpg"
+      },
+      {
+        "id": "nova 12 Pro",
+        "details": "Huawei nova 12 Pro smartphone. Announced Dec 2023. Features 6.76″  display, Kirin 9000S chipset, 4600 mAh battery, 512 GB storage.",
+        "path": "huawei_nova_12_pro-12588.php",
+        "name": "nova 12 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-12-pro.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "NOKIA",
+    "cellphones": [
+      {
+        "id": "C210",
+        "details": "Nokia C210 Android smartphone. Announced Aug 2023. Features 6.3″  display, Snapdragon 662 chipset, 3000 mAh battery, 32 GB storage, 3 GB RAM, Corning Gorilla Glass 3.",
+        "path": "nokia_c210-12472.php",
+        "name": "C210",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/nokia-c210.jpg"
+      },
+      {
+        "id": "G310",
+        "details": "Nokia G310 Android smartphone. Announced Aug 2023. Features 6.56″  display, Snapdragon 480+ 5G chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM, Corning Gorilla Glass 3.",
+        "path": "nokia_g310-12471.php",
+        "name": "G310",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/nokia-g310-5g.jpg"
+      },
+      {
+        "id": "150 (2023)",
+        "details": "Nokia 150 (2023) phone. Announced Aug 2023. Features 2.4″  display, 1450 mAh battery, 4 MB storage, 4 MB RAM.",
+        "path": "nokia_150_(2023)-12465.php",
+        "name": "150 (2023)",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/nokia-150-2023.jpg"
+      },
+      {
+        "id": "130 (2023)",
+        "details": "Nokia 130 (2023) phone. Announced Aug 2023. Features 2.4″  display, 1450 mAh battery, 4 MB storage, 4 MB RAM.",
+        "path": "nokia_130_(2023)-12464.php",
+        "name": "130 (2023)",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/nokia-130-music.jpg"
+      },
+      {
+        "id": "G42",
+        "details": "Nokia G42 Android smartphone. Announced Jun 2023. Features 6.56″  display, Snapdragon 480+ 5G chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 3.",
+        "path": "nokia_g42-12381.php",
+        "name": "G42",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/nokia-g42-5g.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "SONY",
+    "cellphones": [
+      {
+        "id": "Xperia 5 V",
+        "details": "Sony Xperia 5 V Android smartphone. Announced Sep 2023. Features 6.1″  display, Snapdragon 8 Gen 2 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass Victus 2.",
+        "path": "sony_xperia_5_v-12534.php",
+        "name": "Xperia 5 V",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/sony-xperia-5-v-new.jpg"
+      },
+      {
+        "id": "Xperia 1 V",
+        "details": "Sony Xperia 1 V Android smartphone. Announced May 2023. Features 6.5″  display, Snapdragon 8 Gen 2 chipset, 5000 mAh battery, 512 GB storage, 12 GB RAM, Corning Gorilla Glass Victus 2.",
+        "path": "sony_xperia_1_v-12263.php",
+        "name": "Xperia 1 V",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/sony-xperia-1-v.jpg"
+      },
+      {
+        "id": "Xperia 10 V",
+        "details": "Sony Xperia 10 V Android smartphone. Announced May 2023. Features 6.1″  display, Snapdragon 695 5G chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "sony_xperia_10_v-12264.php",
+        "name": "Xperia 10 V",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/sony-xperia-10-v-10.jpg"
+      },
+      {
+        "id": "Xperia 5 IV",
+        "details": "Sony Xperia 5 IV Android smartphone. Announced Sep 2022. Features 6.1″  display, Snapdragon 8 Gen 1 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "sony_xperia_5_iv-11838.php",
+        "name": "Xperia 5 IV",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/sony-xperia-5-iv-ofic.jpg"
+      },
+      {
+        "id": "Xperia 1 IV",
+        "details": "Sony Xperia 1 IV Android smartphone. Announced May 2022. Features 6.5″  display, Snapdragon 8 Gen 1 chipset, 5000 mAh battery, 512 GB storage, 16 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "sony_xperia_1_iv-11521.php",
+        "name": "Xperia 1 IV",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/sony-xperia-1-iv-.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "LG",
+    "cellphones": [
+      {
+        "id": "Ultra Tab",
+        "details": "LG Ultra Tab Android tablet. Announced Aug 2022. Features 10.35″  display, Snapdragon 680 4G chipset, 7040 mAh battery, 64 GB storage, 4 GB RAM.",
+        "path": "lg_ultra_tab-11751.php",
+        "name": "Ultra Tab",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/lg_ultratab.jpg"
+      },
+      {
+        "id": "W41 Pro",
+        "details": "LG W41 Pro Android smartphone. Announced Feb 2021. Features 6.55″  display, MT6765G Helio G35 chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM.",
+        "path": "lg_w41_pro-10742.php",
+        "name": "W41 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/lg-w41-pro.jpg"
+      },
+      {
+        "id": "W41+",
+        "details": "LG W41+ Android smartphone. Announced Feb 2021. Features 6.55″  display, MT6765G Helio G35 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM.",
+        "path": "lg_w41+-10743.php",
+        "name": "W41+",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/lg-w41-plus.jpg"
+      },
+      {
+        "id": "W41",
+        "details": "LG W41 Android smartphone. Announced Feb 2021. Features 6.55″  display, MT6765G Helio G35 chipset, 5000 mAh battery, 64 GB storage, 4 GB RAM.",
+        "path": "lg_w41-10744.php",
+        "name": "W41",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/lg-w41.jpg"
+      },
+      {
+        "id": "W31+",
+        "details": "LG W31+ Android smartphone. Announced Nov 2020. Features 6.52″  display, MT6762 Helio P22 chipset, 4000 mAh battery, 128 GB storage, 4 GB RAM.",
+        "path": "lg_w31+-10585.php",
+        "name": "W31+",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/lg-w31-plus.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "HTC",
+    "cellphones": [
+      {
+        "id": "Wildfire E star",
+        "details": "HTC Wildfire E star Android smartphone. Announced Aug 2023. Features 6.52″  display, Unisoc SC9832E chipset, 3000 mAh battery, 16 GB storage, 2 GB RAM.",
+        "path": "htc_wildfire_e_star-12454.php",
+        "name": "Wildfire E star",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/htc-wildfire-e-star.jpg"
+      },
+      {
+        "id": "U23",
+        "details": "HTC U23 Android smartphone. Announced Jul 2023. Features 6.7″  display, Snapdragon 7 Gen 1 chipset, 4600 mAh battery, 128 GB storage, 8 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "htc_u23-12427.php",
+        "name": "U23",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/htc-u23.jpg"
+      },
+      {
+        "id": "U23 Pro",
+        "details": "HTC U23 Pro Android smartphone. Announced May 2023. Features 6.7″  display, Snapdragon 7 Gen 1 chipset, 4600 mAh battery, 256 GB storage, 12 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "htc_u23_pro-12269.php",
+        "name": "U23 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/htc-u23-pro.jpg"
+      },
+      {
+        "id": "A103 Plus",
+        "details": "HTC A103 Plus Android tablet. Announced Jul 2023. Features 10.1″  display, MT8768A chipset, 6000 mAh battery, 64 GB storage, 4 GB RAM.",
+        "path": "htc_a103_plus-12522.php",
+        "name": "A103 Plus",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/htc-a103-plus.jpg"
+      },
+      {
+        "id": "A103",
+        "details": "HTC A103 Android tablet. Announced Jul 2023. Features 10.1″  display, MT6761B Helio A22 chipset, 6000 mAh battery, 64 GB storage, 4 GB RAM.",
+        "path": "htc_a103-12523.php",
+        "name": "A103",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/htc-a103.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "MOTOROLA",
+    "cellphones": [
+      {
+        "id": "Moto G Power (2024)",
+        "details": "Motorola Moto G Power (2024) Android smartphone. Announced Mar 2024. Features 6.7″  display, Dimensity 7020 chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM.",
+        "path": "motorola_moto_g_power_(2024)-12867.php",
+        "name": "Moto G Power (2024)",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g-power-2024.jpg"
+      },
+      {
+        "id": "Moto G (2024)",
+        "details": "Motorola Moto G (2024) Android smartphone. Announced Mar 2024. Features 6.6″  display, Snapdragon 4 Gen 1 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM.",
+        "path": "motorola_moto_g_(2024)-12866.php",
+        "name": "Moto G (2024)",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g-2024-.jpg"
+      },
+      {
+        "id": "Moto Watch 40",
+        "details": "Motorola Moto Watch 40 watch. Announced Feb 2024. Features 1.57″  display, 240 mAh battery.",
+        "path": "motorola_moto_watch_40-12826.php",
+        "name": "Moto Watch 40",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-watch40.jpg"
+      },
+      {
+        "id": "Moto G24 Power",
+        "details": "Motorola Moto G24 Power Android smartphone. Announced Jan 2024. Features 6.56″  display, MT6769Z Helio G85 chipset, 6000 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "motorola_moto_g24_power-12813.php",
+        "name": "Moto G24 Power",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g24-power.jpg"
+      },
+      {
+        "id": "Moto G24",
+        "details": "Motorola Moto G24 Android smartphone. Announced Jan 2024. Features 6.56″  display, MT6769Z Helio G85 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "motorola_moto_g24-12802.php",
+        "name": "Moto G24",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g24.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "LENOVO",
+    "cellphones": [
+      {
+        "id": "Tab M11",
+        "details": "Lenovo Tab M11 Android tablet. Announced Jan 2024. Features 11.0″  display, MT6769H Helio G88 chipset, 7040 mAh battery, 128 GB storage, 8 GB RAM.",
+        "path": "lenovo_tab_m11-12783.php",
+        "name": "Tab M11",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-tab-m11.jpg"
+      },
+      {
+        "id": "Legion Y700 (2023)",
+        "details": "Lenovo Legion Y700 (2023) Android tablet. Announced Jul 2023. Features 8.8″  display, Snapdragon 8+ Gen 1 chipset, 6550 mAh battery, 512 GB storage, 16 GB RAM.",
+        "path": "lenovo_legion_y700_(2023)-12476.php",
+        "name": "Legion Y700 (2023)",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-legion-y700-2023.jpg"
+      },
+      {
+        "id": "Tab P12",
+        "details": "Lenovo Tab P12 Android tablet. Announced Jul 2023. Features 12.7″  display, Dimensity 7050 chipset, 10200 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "lenovo_tab_p12-12443.php",
+        "name": "Tab P12",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-tab-p12.jpg"
+      },
+      {
+        "id": "Tab M10",
+        "details": "Lenovo Tab M10 Android tablet. Announced Jul 2023. Features 10.6″  display, Snapdragon 695 5G chipset, 7700 mAh battery, 128 GB storage, 6 GB RAM.",
+        "path": "lenovo_tab_m10-12425.php",
+        "name": "Tab M10",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-tab-m10-5g-10.jpg"
+      },
+      {
+        "id": "Tab Extreme",
+        "details": "Lenovo Tab Extreme Android tablet. Announced Jan 2023. Features 14.5″  display, Dimensity 9000 chipset, 12300 mAh battery, 256 GB storage, 12 GB RAM.",
+        "path": "lenovo_tab_extreme-12071.php",
+        "name": "Tab Extreme",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/lenovo-tab-extreme.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "XIAOMI",
+    "cellphones": [
+      {
+        "id": "Poco X6 Neo",
+        "details": "Xiaomi Poco X6 Neo Android smartphone. Announced Mar 2024. Features 6.67″  display, Dimensity 6080 chipset, 5000 mAh battery, 256 GB storage, 12 GB RAM, Corning Gorilla Glass 5.",
+        "path": "xiaomi_poco_x6_neo-12863.php",
+        "name": "Poco X6 Neo",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x6-neo-.jpg"
+      },
+      {
+        "id": "14",
+        "details": "Xiaomi 14 Android smartphone. Announced Oct 2023. Features 6.36″  display, Snapdragon 8 Gen 3 chipset, 4610 mAh battery, 1024 GB storage, 16 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "xiaomi_14-12626.php",
+        "name": "14",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14-new.jpg"
+      },
+      {
+        "id": "14 Ultra",
+        "details": "Xiaomi 14 Ultra Android smartphone. Announced Feb 2024. Features 6.73″  display, Snapdragon 8 Gen 3 chipset, 5000 mAh battery, 1024 GB storage, 16 GB RAM, Xiaomi Shield Glass / Xiaomi Longjing Glass.",
+        "path": "xiaomi_14_ultra-12827.php",
+        "name": "14 Ultra",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14-ultra-new.jpg"
+      },
+      {
+        "id": "Pad 6S Pro 12.4",
+        "details": "Xiaomi Pad 6S Pro 12.4 Android tablet. Announced Feb 2024. Features 12.4″  display, Snapdragon 8 Gen 2 chipset, 10000 mAh battery, 1024 GB storage, 16 GB RAM, Corning Gorilla Glass 5.",
+        "path": "xiaomi_pad_6s_pro_12_4-12838.php",
+        "name": "Pad 6S Pro 12.4",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-pad-6s-pro-124.jpg"
+      },
+      {
+        "id": "Watch 2",
+        "details": "Xiaomi Watch 2 Android watch. Announced Feb 2024. Features 1.43″  display, Snapdragon W5+ Gen 1 chipset, 495 mAh battery, 32 GB storage, 2 GB RAM.",
+        "path": "xiaomi_watch_2-12828.php",
+        "name": "Watch 2",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-watch2.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "GOOGLE",
+    "cellphones": [
+      {
+        "id": "Pixel 8 Pro",
+        "details": "Google Pixel 8 Pro Android smartphone. Announced Oct 2023. Features 6.7″  display, Google Tensor G3 chipset, 5050 mAh battery, 1024 GB storage, 12 GB RAM, Corning Gorilla Glass Victus 2.",
+        "path": "google_pixel_8_pro-12545.php",
+        "name": "Pixel 8 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-8-pro.jpg"
+      },
+      {
+        "id": "Pixel 8",
+        "details": "Google Pixel 8 Android smartphone. Announced Oct 2023. Features 6.2″  display, Google Tensor G3 chipset, 4575 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "google_pixel_8-12546.php",
+        "name": "Pixel 8",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-8.jpg"
+      },
+      {
+        "id": "Pixel Watch 2",
+        "details": "Google Pixel Watch 2 Android watch. Announced Oct 2023. Features 1.2″  display, 5100 chipset, 306 mAh battery, 32 GB storage, 2 GB RAM, Corning Gorilla Glass 5.",
+        "path": "google_pixel_watch_2-12547.php",
+        "name": "Pixel Watch 2",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-watch-2.jpg"
+      },
+      {
+        "id": "Pixel Fold",
+        "details": "Google Pixel Fold Android smartphone. Announced May 2023. Features 7.6″  display, Google Tensor G2 chipset, 4821 mAh battery, 512 GB storage, 12 GB RAM.",
+        "path": "google_pixel_fold-12265.php",
+        "name": "Pixel Fold",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-fold.jpg"
+      },
+      {
+        "id": "Pixel Tablet",
+        "details": "Google Pixel Tablet Android tablet. Announced May 2023. Features 10.95″  display, Google Tensor G2 chipset, 7020 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "google_pixel_tablet-11905.php",
+        "name": "Pixel Tablet",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-tablet-1.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "HONOR",
+    "cellphones": [
+      {
+        "id": "Choice Watch",
+        "details": "Honor Choice Watch watch. Announced Feb 2024. Features 1.95″  display, 300 mAh battery.",
+        "path": "honor_choice_watch-12832.php",
+        "name": "Choice Watch",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-choice-haylou-watch.jpg"
+      },
+      {
+        "id": "Magic V2 RSR Porsche Design",
+        "details": "Honor Magic V2 RSR Porsche Design Android smartphone. Announced Jan 2024. Features 7.92″  display, Snapdragon 8 Gen 2 chipset, 5000 mAh battery, 1024 GB storage, 16 GB RAM.",
+        "path": "honor_magic_v2_rsr_porsche_design-12789.php",
+        "name": "Magic V2 RSR Porsche Design",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic-v2-rsr-porsche-design.jpg"
+      },
+      {
+        "id": "Magic6 Pro",
+        "details": "Honor Magic6 Pro Android smartphone. Announced Jan 2024. Features 6.8″  display, Snapdragon 8 Gen 3 chipset, 5600 mAh battery, 1024 GB storage, 16 GB RAM, Jurhino glass.",
+        "path": "honor_magic6_pro-12786.php",
+        "name": "Magic6 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6-pro.jpg"
+      },
+      {
+        "id": "Magic6",
+        "details": "Honor Magic6 Android smartphone. Announced Jan 2024. Features 6.78″  display, Snapdragon 8 Gen 3 chipset, 5450 mAh battery, 512 GB storage, 16 GB RAM, Jurhino glass.",
+        "path": "honor_magic6-12788.php",
+        "name": "Magic6",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic6.jpg"
+      },
+      {
+        "id": "X50 GT",
+        "details": "Honor X50 GT Android smartphone. Announced Jan 2024. Features 6.78″  display, Snapdragon 8+ Gen 1 chipset, 5800 mAh battery, 1024 GB storage, 16 GB RAM.",
+        "path": "honor_x50_gt-12777.php",
+        "name": "X50 GT",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-x50-gt.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "OPPO",
+    "cellphones": [
+      {
+        "id": "Watch X",
+        "details": "Oppo Watch X Android watch. Announced Feb 2024. Features 1.43″  display, Snapdragon W5 Gen 1 chipset, 500 mAh battery, 32 GB storage, 2 GB RAM, MIL-STD-810H compliant, Sapphire crystal glass.",
+        "path": "oppo_watch_x-12855.php",
+        "name": "Watch X",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-watch-x.jpg"
+      },
+      {
+        "id": "F25 Pro",
+        "details": "Oppo F25 Pro Android smartphone. Announced Feb 2024. Features 6.7″  display, Dimensity 7050 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Panda glass.",
+        "path": "oppo_f25_pro-12854.php",
+        "name": "F25 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-f25-pro.jpg"
+      },
+      {
+        "id": "Reno11 F",
+        "details": "Oppo Reno11 F Android smartphone. Announced Feb 2024. Features 6.7″  display, Dimensity 7050 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Panda glass.",
+        "path": "oppo_reno11_f-12797.php",
+        "name": "Reno11 F",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno11-f-5g.jpg"
+      },
+      {
+        "id": "Pad Neo",
+        "details": "Oppo Pad Neo Android tablet. Announced Jan 2024. Features 11.4″  display, Helio G99 chipset, 8000 mAh battery, 128 GB storage, 8 GB RAM.",
+        "path": "oppo_pad_neo-12796.php",
+        "name": "Pad Neo",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-pad-air2.jpg"
+      },
+      {
+        "id": "Reno11 Pro",
+        "details": "Oppo Reno11 Pro Android smartphone. Announced Jan 2024. Features 6.7″  display, Dimensity 8200 chipset, 4600 mAh battery, 512 GB storage, 12 GB RAM, Asahi Glass AGC.",
+        "path": "oppo_reno11_pro-12790.php",
+        "name": "Reno11 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno11-china.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "REALME",
+    "cellphones": [
+      {
+        "id": "12",
+        "details": "Realme 12 Android smartphone. Announced Mar 2024. Features 6.72″  display, Dimensity 6100+ chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM.",
+        "path": "realme_12-12861.php",
+        "name": "12",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-5g.jpg"
+      },
+      {
+        "id": "12+",
+        "details": "Realme 12+ Android smartphone. Announced Feb 2024. Features 6.67″  display, Dimensity 7050 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "realme_12+-12821.php",
+        "name": "12+",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-plus.jpg"
+      },
+      {
+        "id": "12 Pro+",
+        "details": "Realme 12 Pro+ Android smartphone. Announced Jan 2024. Features 6.7″  display, Snapdragon 7s Gen 2 chipset, 5000 mAh battery, 512 GB storage, 12 GB RAM.",
+        "path": "realme_12_pro+-12804.php",
+        "name": "12 Pro+",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-pro-plus.jpg"
+      },
+      {
+        "id": "12 Pro",
+        "details": "Realme 12 Pro Android smartphone. Announced Jan 2024. Features 6.7″  display, Snapdragon 6 Gen 1 chipset, 5000 mAh battery, 512 GB storage, 12 GB RAM.",
+        "path": "realme_12_pro-12810.php",
+        "name": "12 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-12-pro.jpg"
+      },
+      {
+        "id": "Note 50",
+        "details": "Realme Note 50 Android smartphone. Announced Jan 2024. Features 6.74″  display, Unisoc Tiger T612 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM.",
+        "path": "realme_note_50-12799.php",
+        "name": "Note 50",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-note-50.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "ONEPLUS",
+    "cellphones": [
+      {
+        "id": "Watch 2",
+        "details": "OnePlus Watch 2 Android watch. Announced Feb 2024. Features 1.43″  display, Snapdragon W5 Gen 1 chipset, 500 mAh battery, 32 GB storage, 2 GB RAM, MIL-STD-810H compliant, Sapphire crystal glass.",
+        "path": "oneplus_watch_2-12843.php",
+        "name": "Watch 2",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-watch-2.jpg"
+      },
+      {
+        "id": "Nord N30 SE",
+        "details": "OnePlus Nord N30 SE Android smartphone. Announced Jan 2024. Features 6.72″  display, Dimensity 6020 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM.",
+        "path": "oneplus_nord_n30_se-12811.php",
+        "name": "Nord N30 SE",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-n30-se-5g.jpg"
+      },
+      {
+        "id": "12R",
+        "details": "OnePlus 12R Android smartphone. Announced Jan 2024. Features 6.78″  display, Snapdragon 8 Gen 2 chipset, 5500 mAh battery, 256 GB storage, 16 GB RAM, Corning Gorilla Glass Victus 2.",
+        "path": "oneplus_12r-12727.php",
+        "name": "12R",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-12r-new.jpg"
+      },
+      {
+        "id": "12",
+        "details": "OnePlus 12 Android smartphone. Announced Dec 2023. Features 6.82″  display, Snapdragon 8 Gen 3 chipset, 5400 mAh battery, 1024 GB storage, 24 GB RAM, Corning Gorilla Glass Victus 2.",
+        "path": "oneplus_12-12725.php",
+        "name": "12",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-12.jpg"
+      },
+      {
+        "id": "Ace 3",
+        "details": "OnePlus Ace 3 Android smartphone. Announced Jan 2024. Features 6.78″  display, Snapdragon 8 Gen 2 chipset, 5500 mAh battery, 1024 GB storage, 16 GB RAM, Corning Gorilla Glass Victus 2.",
+        "path": "oneplus_ace_3-12775.php",
+        "name": "Ace 3",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-ace3.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "VIVO",
+    "cellphones": [
+      {
+        "id": "Y03",
+        "details": "vivo Y03 Android smartphone. Announced Mar 2024. Features 6.56″  display, Helio G85 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM.",
+        "path": "vivo_y03-12868.php",
+        "name": "Y03",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-y03.jpg"
+      },
+      {
+        "id": "iQOO Z9",
+        "details": "vivo iQOO Z9 Android smartphone. Announced Mar 2024. Features 6.67″  display, Dimensity 7200 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Dragontrail Star 2 Plus.",
+        "path": "vivo_iqoo_z9-12865.php",
+        "name": "iQOO Z9",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z9.jpg"
+      },
+      {
+        "id": "V30 Pro",
+        "details": "vivo V30 Pro Android smartphone. Announced Feb 2024. Features 6.78″  display, Dimensity 8200 chipset, 5000 mAh battery, 512 GB storage, 12 GB RAM, Schott α glass.",
+        "path": "vivo_v30_pro-12829.php",
+        "name": "V30 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v30-pro.jpg"
+      },
+      {
+        "id": "Y100t",
+        "details": "vivo Y100t Android smartphone. Announced Feb 2024. Features 6.64″  display, Dimensity 8200 chipset, 5000 mAh battery, 512 GB storage, 12 GB RAM.",
+        "path": "vivo_y100t-12839.php",
+        "name": "Y100t",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-z8-china.jpg"
+      },
+      {
+        "id": "iQOO Neo9 Pro",
+        "details": "vivo iQOO Neo9 Pro Android smartphone. Announced Feb 2024. Features 6.78″  display, Snapdragon 8 Gen 2 chipset, 5160 mAh battery, 256 GB storage, 12 GB RAM.",
+        "path": "vivo_iqoo_neo9_pro-12819.php",
+        "name": "iQOO Neo9 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-neo9.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "MEIZU",
+    "cellphones": [
+      {
+        "id": "21 Pro",
+        "details": "Meizu 21 Pro Android smartphone. Announced Feb 2024. Features 6.79″  display, Snapdragon 8 Gen 3 chipset, 5050 mAh battery, 1024 GB storage, 16 GB RAM, Meizu Titan Glass 2.0.",
+        "path": "meizu_21_pro-12805.php",
+        "name": "21 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/meizu-21-pro.jpg"
+      },
+      {
+        "id": "21",
+        "details": "Meizu 21 Android smartphone. Announced Nov 2023. Features 6.55″  display, Snapdragon 8 Gen 3 chipset, 4800 mAh battery, 512 GB storage, 12 GB RAM.",
+        "path": "meizu_21-12719.php",
+        "name": "21",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/meizu-21.jpg"
+      },
+      {
+        "id": "20 Classic",
+        "details": "Meizu 20 Classic Android smartphone. Announced Oct 2023. Features 6.55″  display, Snapdragon 8 Gen 2 chipset, 4700 mAh battery, 512 GB storage, 16 GB RAM.",
+        "path": "meizu_20_classic-12630.php",
+        "name": "20 Classic",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/meizu-20classic.jpg"
+      },
+      {
+        "id": "20 Infinity",
+        "details": "Meizu 20 Infinity Android smartphone. Announced Mar 2023. Features 6.79″  display, Snapdragon 8 Gen 2 chipset, 4800 mAh battery, 1024 GB storage, 16 GB RAM.",
+        "path": "meizu_20_infinity-12207.php",
+        "name": "20 Infinity",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/meizu-20-infinity.jpg"
+      },
+      {
+        "id": "20 Pro",
+        "details": "Meizu 20 Pro Android smartphone. Announced Mar 2023. Features 6.81″  display, Snapdragon 8 Gen 2 chipset, 5000 mAh battery, 512 GB storage, 12 GB RAM.",
+        "path": "meizu_20_pro-12161.php",
+        "name": "20 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/meizu-20-pro.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "BLACKBERRY",
+    "cellphones": [
+      {
+        "id": "KEY2 LE",
+        "details": "BlackBerry KEY2 LE Android smartphone. Announced Aug 2018. Features 4.5″  display, Snapdragon 636 chipset, Dual: 13 MP (PDAF) + 5 MP primary camera, 5 MP front camera, 3000 mAh battery, 64 GB storage, 4 GB RAM, Corning Gorilla Glass (unspecified version).",
+        "path": "blackberry_key2_le-9292.php",
+        "name": "KEY2 LE",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/blackberry-key2-le-.jpg"
+      },
+      {
+        "id": "Evolve X",
+        "details": "BlackBerry Evolve X Android smartphone. Announced Aug 2018. Features 5.99″  display, Snapdragon 660 chipset, Dual: 12 MP (f/1.8, 1/2.8″, 1.29 μm, PDAF) + 13 MP primary camera, 16 MP front camera, 4000 mAh battery, 64 GB storage, 6 GB RAM, Corning Gorilla Glass 5.",
+        "path": "blackberry_evolve_x-9282.php",
+        "name": "Evolve X",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/blackberry-exolve-x-5.jpg"
+      },
+      {
+        "id": "Evolve",
+        "details": "BlackBerry Evolve Android smartphone. Announced Aug 2018. Features 5.99″  display, Snapdragon 450 chipset, Dual: 13 MP, 1/3.1″, 1.12µm, PDAF + 13 MP primary camera, 16 MP front camera, 4000 mAh battery, 64 GB storage, 4 GB RAM, Corning Gorilla Glass 5.",
+        "path": "blackberry_evolve-9281.php",
+        "name": "Evolve",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/blackberry-exolve-6.jpg"
+      },
+      {
+        "id": "KEY2",
+        "details": "BlackBerry KEY2 Android smartphone. Announced Jun 2018. Features 4.5″  display, Snapdragon 660 chipset, Dual: 12 MP (f/1.8, 1/2.3″, 1.28µm, dual pixel PDAF) + 12 MP primary camera, 8 MP front camera, 3500 mAh battery, 128 GB storage, 6 GB RAM, Corning Gorilla Glass 3.",
+        "path": "blackberry_key2-9187.php",
+        "name": "KEY2",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/blackberry-key2-new.jpg"
+      },
+      {
+        "id": "Motion",
+        "details": "BlackBerry Motion Android smartphone. Announced Oct 2017. Features 5.5″  display, Snapdragon 625 chipset, 12 MP primary camera, 8 MP front camera, 4000 mAh battery, 32 GB storage, 4 GB RAM, Scratch-resistant glass.",
+        "path": "blackberry_motion-8891.php",
+        "name": "Motion",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/blackberry-motion.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "ASUS",
+    "cellphones": [
+      {
+        "id": "ROG Phone 8 Pro",
+        "details": "Asus ROG Phone 8 Pro Android smartphone. Announced Jan 2024. Features 6.78″  display, Snapdragon 8 Gen 3 chipset, 5500 mAh battery, 1024 GB storage, 24 GB RAM, Corning Gorilla Glass Victus 2.",
+        "path": "asus_rog_phone_8_pro-12746.php",
+        "name": "ROG Phone 8 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-8-pro.jpg"
+      },
+      {
+        "id": "ROG Phone 8",
+        "details": "Asus ROG Phone 8 Android smartphone. Announced Jan 2024. Features 6.78″  display, Snapdragon 8 Gen 3 chipset, 5500 mAh battery, 256 GB storage, 16 GB RAM, Corning Gorilla Glass Victus 2.",
+        "path": "asus_rog_phone_8-12780.php",
+        "name": "ROG Phone 8",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-8.jpg"
+      },
+      {
+        "id": "Zenfone 10",
+        "details": "Asus Zenfone 10 Android smartphone. Announced Jun 2023. Features 5.92″  display, Snapdragon 8 Gen 2 chipset, 4300 mAh battery, 512 GB storage, 16 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "asus_zenfone_10-12380.php",
+        "name": "Zenfone 10",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone10.jpg"
+      },
+      {
+        "id": "ROG Phone 7 Ultimate",
+        "details": "Asus ROG Phone 7 Ultimate Android smartphone. Announced Apr 2023. Features 6.78″  display, Snapdragon 8 Gen 2 chipset, 6000 mAh battery, 512 GB storage, 16 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "asus_rog_phone_7_ultimate-12224.php",
+        "name": "ROG Phone 7 Ultimate",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-7-ultimate.jpg"
+      },
+      {
+        "id": "ROG Phone 7",
+        "details": "Asus ROG Phone 7 Android smartphone. Announced Apr 2023. Features 6.78″  display, Snapdragon 8 Gen 2 chipset, 6000 mAh battery, 512 GB storage, 16 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "asus_rog_phone_7-12223.php",
+        "name": "ROG Phone 7",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-7.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "ALCATEL",
+    "cellphones": [
+      {
+        "id": "1B (2022)",
+        "details": "alcatel 1B (2022) Android smartphone. Announced May 2022. Features 5.5″  display, MT6761 Helio A22 chipset, 3000 mAh battery, 32 GB storage, 2 GB RAM.",
+        "path": "alcatel_1b_(2022)-11706.php",
+        "name": "1B (2022)",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/alcatel-1b-2022.jpg"
+      },
+      {
+        "id": "1L Pro (2021)",
+        "details": "alcatel 1L Pro (2021) Android smartphone. Announced Jun 2021. Features 6.1″  display, Unisoc SC9863A chipset, 3000 mAh battery, 32 GB storage, 2 GB RAM.",
+        "path": "alcatel_1l_pro_(2021)-10981.php",
+        "name": "1L Pro (2021)",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/alcatel-1l-pro-2021.jpg"
+      },
+      {
+        "id": "1 (2021)",
+        "details": "alcatel 1 (2021) Android smartphone. Announced Jun 2021. Features 5.0″  display, MT6739 chipset, 2000 mAh battery, 16 GB storage, 1000 MB RAM, Asahi Glass.",
+        "path": "alcatel_1_(2021)-10980.php",
+        "name": "1 (2021)",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/alcatel-1-2021.jpg"
+      },
+      {
+        "id": "3L (2021)",
+        "details": "alcatel 3L (2021) Android smartphone. Announced Jan 2021. Features 6.52″  display, MT6762D Helio P22 chipset, 4000 mAh battery, 64 GB storage, 4 GB RAM.",
+        "path": "alcatel_3l_(2021)-10679.php",
+        "name": "3L (2021)",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/alcatel-a3l-2021.jpg"
+      },
+      {
+        "id": "1S (2021)",
+        "details": "alcatel 1S (2021) Android smartphone. Announced Jan 2021. Features 6.52″  display, MT6762D Helio P22 chipset, 4000 mAh battery, 32 GB storage, 3 GB RAM.",
+        "path": "alcatel_1s_(2021)-10680.php",
+        "name": "1S (2021)",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/alcatel-1s-2021.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "ZTE",
+    "cellphones": [
+      {
+        "id": "nubia Focus Pro",
+        "details": "ZTE nubia Focus Pro Android smartphone. Announced Feb 2024. Features 6.72″  display, Unisoc T760 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "zte_nubia_focus_pro-12850.php",
+        "name": "nubia Focus Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/zte-nubia-focus-pro-5g.jpg"
+      },
+      {
+        "id": "nubia Focus",
+        "details": "ZTE nubia Focus Android smartphone. Announced Feb 2024. Features 6.6″  display, Unisoc T760 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "zte_nubia_focus-12849.php",
+        "name": "nubia Focus",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/zte-nubia-focus-5g.jpg"
+      },
+      {
+        "id": "nubia Neo 2",
+        "details": "ZTE nubia Neo 2 Android smartphone. Announced Feb 2024. Features 6.72″  display, Unisoc T820 chipset, 6000 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "zte_nubia_neo_2-12852.php",
+        "name": "nubia Neo 2",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/zte-nubia-neo2-5g.jpg"
+      },
+      {
+        "id": "nubia Music",
+        "details": "ZTE nubia Music Android smartphone. Announced Feb 2024. Features 6.6″  display, Unisoc SC9863A chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM.",
+        "path": "zte_nubia_music-12851.php",
+        "name": "nubia Music",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/zte-nubia-music.jpg"
+      },
+      {
+        "id": "nubia Pad 3D II",
+        "details": "ZTE nubia Pad 3D II Android tablet. Announced Feb 2024. Features 12.1″  display, Snapdragon 8 Gen 2 chipset, 10000 mAh battery, 512 GB storage, Corning Gorilla Glass.",
+        "path": "zte_nubia_pad_3d_ii-12853.php",
+        "name": "nubia Pad 3D II",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/zte-nubia-pad-3d-ii.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "MICROSOFT",
+    "cellphones": [
+      {
+        "id": "Surface Duo 2",
+        "details": "Microsoft Surface Duo 2 Android tablet. Announced Sep 2021. Features 8.3″  display, Snapdragon 888 5G chipset, 4449 mAh battery, 512 GB storage, 8 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "microsoft_surface_duo_2-11117.php",
+        "name": "Surface Duo 2",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/microsoft-surface-duo2.jpg"
+      },
+      {
+        "id": "Surface Duo",
+        "details": "Microsoft Surface Duo Android tablet. Announced Aug 2020. Features 8.1″  display, Snapdragon 855 chipset, 3577 mAh battery, 256 GB storage, 6 GB RAM, Corning Gorilla Glass 5.",
+        "path": "microsoft_surface_duo-10365.php",
+        "name": "Surface Duo",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/microsoft-surface-duo.jpg"
+      },
+      {
+        "id": "Lumia 650",
+        "details": "Microsoft Lumia 650 Windows Mobile smartphone. Announced Feb 2016. Features 5.0″  display, Snapdragon 212 chipset, 8 MP primary camera, 5 MP front camera, 2000 mAh battery, 16 GB storage, 1000 MB RAM, Corning Gorilla Glass 3.",
+        "path": "microsoft_lumia_650-7859.php",
+        "name": "Lumia 650",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/microsoft-lumia-650-s.jpg"
+      },
+      {
+        "id": "Lumia 950 XL Dual SIM",
+        "details": "Microsoft Lumia 950 XL Dual SIM Windows Mobile smartphone. Announced Oct 2015. Features 5.7″  display, Snapdragon 810 chipset, 20 MP primary camera, 5 MP front camera, 3300 mAh battery, 32 GB storage, 3 GB RAM, Corning Gorilla Glass 4.",
+        "path": "microsoft_lumia_950_xl_dual_sim-7631.php",
+        "name": "Lumia 950 XL Dual SIM",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/microsoft-lumia-950-xl--.jpg"
+      },
+      {
+        "id": "Lumia 950 XL",
+        "details": "Microsoft Lumia 950 XL Windows Mobile smartphone. Announced Oct 2015. Features 5.7″  display, Snapdragon 810 chipset, 20 MP primary camera, 5 MP front camera, 3300 mAh battery, 32 GB storage, 3 GB RAM, Corning Gorilla Glass 4.",
+        "path": "microsoft_lumia_950_xl-7263.php",
+        "name": "Lumia 950 XL",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/microsoft-lumia-950-xl--.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "VODAFONE",
+    "cellphones": [
+      {
+        "id": "Smart V10",
+        "details": "Vodafone Smart V10 Android smartphone. Announced May 2019. Features 5.9″  display, Snapdragon 429 chipset, 3400 mAh battery, 32 GB storage, 3 GB RAM, Asahi Dragontrail Glass.",
+        "path": "vodafone_smart_v10-9726.php",
+        "name": "Smart V10",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/vodafone-smart-v10.jpg"
+      },
+      {
+        "id": "Smart N10",
+        "details": "Vodafone Smart N10 Android smartphone. Announced May 2019. Features 5.67″  display, MT6761V chipset, 2920 mAh battery, 16 GB storage, 2 GB RAM, Asahi Dragontrail Glass.",
+        "path": "vodafone_smart_n10-9725.php",
+        "name": "Smart N10",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/vodafone-smart-n10.jpg"
+      },
+      {
+        "id": "Smart E9",
+        "details": "Vodafone Smart E9 Android smartphone. Announced Dec 2018. Features 5.0″  display, MT6739 chipset, 2000 mAh battery, 8 GB storage, 1000 MB RAM.",
+        "path": "vodafone_smart_e9-9484.php",
+        "name": "Smart E9",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/vodafone-smart-e9.jpg"
+      },
+      {
+        "id": "Smart X9",
+        "details": "Vodafone Smart X9 Android smartphone. Announced Dec 2018. Features 5.7″  display, Snapdragon 450 chipset, 3100 mAh battery, 32 GB storage, 3 GB RAM, Asahi Dragontrail Glass.",
+        "path": "vodafone_smart_x9-9483.php",
+        "name": "Smart X9",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/vodafone-smart-x9.jpg"
+      },
+      {
+        "id": "Smart N9",
+        "details": "Vodafone Smart N9 Android smartphone. Announced Jun 2018. Features 5.5″  display, MT6739WA chipset, 13 MP primary camera, 8 MP front camera, 2900 mAh battery, 16 GB storage, 2 GB RAM.",
+        "path": "vodafone_smart_n9-9235.php",
+        "name": "Smart N9",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/vodafone-smart-n9-.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "ENERGIZER",
+    "cellphones": [
+      {
+        "id": "Hard Case P28K",
+        "details": "Energizer Hard Case P28K Android smartphone. Announced Feb 2024. Features 6.78″  display, Helio G99 chipset, 28000 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "energizer_hard_case_p28k-12825.php",
+        "name": "Hard Case P28K",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/energizer-hard-case-p28k.jpg"
+      },
+      {
+        "id": "U683S",
+        "details": "Energizer U683S Android smartphone. Announced Jan 2024. Features 6.82″  display, MT6762CB chipset, 4900 mAh battery, 64 GB storage, 2 GB RAM.",
+        "path": "energizer_u683s-12814.php",
+        "name": "U683S",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/energizer-u683s.jpg"
+      },
+      {
+        "id": "H67G",
+        "details": "Energizer H67G Android smartphone. Announced Jan 2024. Features 6.78″  display, Dimensity 720 chipset, 4900 mAh battery, 128 GB storage, 4 GB RAM.",
+        "path": "energizer_h67g-12801.php",
+        "name": "H67G",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/energizer-h67g.jpg"
+      },
+      {
+        "id": "E242s+",
+        "details": "Energizer E242s+ smartphone. Announced Jan 2024. Features 2.4″  display, MT6739 chipset, 2000 mAh battery, 4 GB storage, 512 MB RAM.",
+        "path": "energizer_e242s+-12774.php",
+        "name": "E242s+",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/energizer-e242s-plus.jpg"
+      },
+      {
+        "id": "E244s",
+        "details": "Energizer E244s phone. Announced Dec 2023. Features 2.4″  display, Unisoc T107 chipset, 1400 mAh battery.",
+        "path": "energizer_e244s-12767.php",
+        "name": "E244s",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/energizer-e244s.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "CAT",
+    "cellphones": [
+      {
+        "id": "S75",
+        "details": "Cat S75 Android smartphone. Announced Feb 2023. Features 6.6″  display, Dimensity 930 chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass Victus.",
+        "path": "cat_s75-12140.php",
+        "name": "S75",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/cat-s75.jpg"
+      },
+      {
+        "id": "S53",
+        "details": "Cat S53 Android smartphone. Announced Jul 2022. Features 6.5″  display, Snapdragon 480 5G chipset, 5500 mAh battery, 128 GB storage, 6 GB RAM, MIL-STD-810H compliant.",
+        "path": "cat_s53-11766.php",
+        "name": "S53",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/cat-s53.jpg"
+      },
+      {
+        "id": "S22 Flip",
+        "details": "Cat S22 Flip Android smartphone. Announced Sep 2021. Features 2.8″  display, Snapdragon 215 chipset, 2000 mAh battery, 16 GB storage, 2 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 5.",
+        "path": "cat_s22_flip-11141.php",
+        "name": "S22 Flip",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/cat-s22-flip.jpg"
+      },
+      {
+        "id": "S62",
+        "details": "Cat S62 Android smartphone. Announced Jun 2021. Features 5.7″  display, Snapdragon 660 chipset, 4000 mAh battery, 128 GB storage, 4 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 6.",
+        "path": "cat_s62-11300.php",
+        "name": "S62",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/cat-s62.jpg"
+      },
+      {
+        "id": "S42 H+",
+        "details": "Cat S42 H+ Android smartphone. Announced Apr 2021. Features 5.5″  display, MT6761D Helio A20 chipset, 4200 mAh battery, 32 GB storage, 3 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 5.",
+        "path": "cat_s42_h+-10975.php",
+        "name": "S42 H+",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/cat-s42-plus.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "SHARP",
+    "cellphones": [
+      {
+        "id": "Aquos R7s",
+        "details": "Sharp Aquos R7s Android smartphone. Announced Jul 2023. Features 6.6″  display, Snapdragon 8 Gen 1 chipset, 5000 mAh battery, 256 GB storage, 12 GB RAM, Corning Gorilla Glass Victus.",
+        "path": "sharp_aquos_r7s-12605.php",
+        "name": "Aquos R7s",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/sharp-aquos-r7s.jpg"
+      },
+      {
+        "id": "Aquos V7 Plus",
+        "details": "Sharp Aquos V7 Plus Android smartphone. Announced Jul 2023. Features 6.74″  display, MT6765 Helio G37 chipset, 5010 mAh battery, 256 GB storage, 6 GB RAM.",
+        "path": "sharp_aquos_v7_plus-12606.php",
+        "name": "Aquos V7 Plus",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/sharp-aquos-v7-plus.jpg"
+      },
+      {
+        "id": "Aquos sense7 plus",
+        "details": "Sharp Aquos sense7 plus Android smartphone. Announced Aug 2023. Features 6.4″  display, Snapdragon 695 5G chipset, 5050 mAh battery, 128 GB storage, 6 GB RAM, MIL-STD-810H compliant.",
+        "path": "sharp_aquos_sense7_plus-12565.php",
+        "name": "Aquos sense7 plus",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/sharp-aquos-sense7-plus.jpg"
+      },
+      {
+        "id": "Aquos sense7",
+        "details": "Sharp Aquos sense7 Android smartphone. Announced Aug 2023. Features 6.1″  display, Snapdragon 695 5G chipset, 4570 mAh battery, 128 GB storage, 6 GB RAM, MIL-STD-810H compliant.",
+        "path": "sharp_aquos_sense7-12564.php",
+        "name": "Aquos sense7",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/sharp-aquos-sense7.jpg"
+      },
+      {
+        "id": "Aquos V6 Plus",
+        "details": "Sharp Aquos V6 Plus Android smartphone. Announced Feb 2022. Features 6.52″  display, MT6762G Helio G25 chipset, 5000 mAh battery, 64 GB storage, 4 GB RAM.",
+        "path": "sharp_aquos_v6_plus-11868.php",
+        "name": "Aquos V6 Plus",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/sharp-aquos-v6plus.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "MICROMAX",
+    "cellphones": [
+      {
+        "id": "In 2c",
+        "details": "Micromax In 2c Android smartphone. Announced Apr 2022. Features 6.52″  display, Unisoc T610 chipset, 5000 mAh battery, 32 GB storage, 3 GB RAM.",
+        "path": "micromax_in_2c-11496.php",
+        "name": "In 2c",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/micromax-in-2c.jpg"
+      },
+      {
+        "id": "In note 2",
+        "details": "Micromax In note 2 Android smartphone. Announced Jan 2022. Features 6.43″  display, MT6785V chipset, 5000 mAh battery, 64 GB storage, 4 GB RAM, Corning Gorilla Glass.",
+        "path": "micromax_in_note_2-11332.php",
+        "name": "In note 2",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/micromax-in-note2.jpg"
+      },
+      {
+        "id": "In 2b",
+        "details": "Micromax In 2b Android smartphone. Announced Jul 2021. Features 6.52″  display, Unisoc T610 chipset, 5000 mAh battery, 64 GB storage, 6 GB RAM.",
+        "path": "micromax_in_2b-11036.php",
+        "name": "In 2b",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/micromax-in-2b.jpg"
+      },
+      {
+        "id": "In 1",
+        "details": "Micromax In 1 Android smartphone. Announced Mar 2021. Features 6.67″  display, MT6769V chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM.",
+        "path": "micromax_in_1-10800.php",
+        "name": "In 1",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/micromax-in1.jpg"
+      },
+      {
+        "id": "In note 1",
+        "details": "Micromax In note 1 Android smartphone. Announced Nov 2020. Features 6.67″  display, MT6769Z Helio G85 chipset, 5000 mAh battery, 128 GB storage, 4 GB RAM, Oleophobic coating.",
+        "path": "micromax_in_note_1-10569.php",
+        "name": "In note 1",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/micromax-in-note1.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "INFINIX",
+    "cellphones": [
+      {
+        "id": "Smart 8 Plus",
+        "details": "Infinix Smart 8 Plus Android smartphone. Announced Jan 2024. Features 6.6″  display, Helio G36 chipset, 6000 mAh battery, 128 GB storage, 4 GB RAM.",
+        "path": "infinix_smart_8_plus-12817.php",
+        "name": "Smart 8 Plus",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/infinix-smart-8-plus.jpg"
+      },
+      {
+        "id": "Smart 8 Pro",
+        "details": "Infinix Smart 8 Pro Android smartphone. Announced Jan 2024. Features 6.6″  display, Helio G36 chipset, 5000 mAh battery, 128 GB storage, 8 GB RAM.",
+        "path": "infinix_smart_8_pro-12812.php",
+        "name": "Smart 8 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/infinix-smart-8-pro.jpg"
+      },
+      {
+        "id": "Smart 8 (India)",
+        "details": "Infinix Smart 8 (India) Android smartphone. Announced Jan 2024. Features 6.6″  display, Helio G36 chipset, 5000 mAh battery, 64 GB storage, 4 GB RAM.",
+        "path": "infinix_smart_8_(india)-12792.php",
+        "name": "Smart 8 (India)",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/infinix-smart-8-india.jpg"
+      },
+      {
+        "id": "Smart 8 HD",
+        "details": "Infinix Smart 8 HD Android smartphone. Announced Dec 2023. Features 6.6″  display, Unisoc T606 chipset, 5000 mAh battery, 64 GB storage, 3 GB RAM.",
+        "path": "infinix_smart_8_hd-12736.php",
+        "name": "Smart 8 HD",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/infinix-smart-8-hd.jpg"
+      },
+      {
+        "id": "Hot 40 Pro",
+        "details": "Infinix Hot 40 Pro Android smartphone. Announced Dec 2023. Features 6.78″  display, Helio G99 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "infinix_hot_40_pro-12733.php",
+        "name": "Hot 40 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot-40-pro.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "ULEFONE",
+    "cellphones": [
+      {
+        "id": "Note 17 Pro",
+        "details": "Ulefone Note 17 Pro Android smartphone. Announced Jan 2024. Features 6.78″  display, Helio G99 chipset, 5050 mAh battery, 256 GB storage, 12 GB RAM, Corning Gorilla Glass 5.",
+        "path": "ulefone_note_17_pro-12815.php",
+        "name": "Note 17 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/ulefone-note-17-pro.jpg"
+      },
+      {
+        "id": "Armor 23 Ultra",
+        "details": "Ulefone Armor 23 Ultra Android smartphone. Announced Dec 2023. Features 6.78″  display, Dimensity 8020 chipset, 5280 mAh battery, 512 GB storage, 12 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass Victus.",
+        "path": "ulefone_armor_23_ultra-12757.php",
+        "name": "Armor 23 Ultra",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/ulefone-armor-23-ultra.jpg"
+      },
+      {
+        "id": "Power Armor 18T Ultra",
+        "details": "Ulefone Power Armor 18T Ultra Android smartphone. Announced Oct 2023. Features 6.58″  display, Dimensity 7050 chipset, 9600 mAh battery, 512 GB storage, 12 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 5.",
+        "path": "ulefone_power_armor_18t_ultra-12686.php",
+        "name": "Power Armor 18T Ultra",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/ulefone-power-armor-18t-ultra.jpg"
+      },
+      {
+        "id": "Power Armor 18 Ultra",
+        "details": "Ulefone Power Armor 18 Ultra Android smartphone. Announced Nov 2023. Features 6.58″  display, Dimensity 7050 chipset, 9600 mAh battery, 512 GB storage, 12 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 5.",
+        "path": "ulefone_power_armor_18_ultra-12685.php",
+        "name": "Power Armor 18 Ultra",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/ulefone-power-armor-18-ultra.jpg"
+      },
+      {
+        "id": "Armor Pad 2",
+        "details": "Ulefone Armor Pad 2 Android tablet. Announced Oct 2023. Features 11.0″  display, Helio G99 chipset, 18600 mAh battery, 256 GB storage, 8 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 5.",
+        "path": "ulefone_armor_pad_2-12625.php",
+        "name": "Armor Pad 2",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/ulefone-armor-pad2.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "TECNO",
+    "cellphones": [
+      {
+        "id": "Camon 30 Premier",
+        "details": "Tecno Camon 30 Premier Android smartphone. Announced Feb 2024. Features 6.77″  display, Dimensity 8200 Ultimate chipset, 5000 mAh battery, 512 GB storage, 12 GB RAM, Corning Gorilla Glass.",
+        "path": "tecno_camon_30_premier-12845.php",
+        "name": "Camon 30 Premier",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-30-premier-5g-r.jpg"
+      },
+      {
+        "id": "Camon 30 Pro",
+        "details": "Tecno Camon 30 Pro Android smartphone. Announced Feb 2024. Features 6.78″  display, Dimensity 8200 Ultimate chipset, 5000 mAh battery, 256 GB storage.",
+        "path": "tecno_camon_30_pro-12846.php",
+        "name": "Camon 30 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-30-premier-5g-r.jpg"
+      },
+      {
+        "id": "Camon 30 5G",
+        "details": "Tecno Camon 30 5G Android smartphone. Announced Feb 2024. Features 6.78″  display, Dimensity 7020 chipset, 5000 mAh battery, 256 GB storage.",
+        "path": "tecno_camon_30_5g-12847.php",
+        "name": "Camon 30 5G",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-30-premier-5g-r.jpg"
+      },
+      {
+        "id": "Camon 30",
+        "details": "Tecno Camon 30 Android smartphone. Announced Feb 2024. Features 6.78″  display, Helio G99 Ultimate chipset, 5000 mAh battery, 256 GB storage.",
+        "path": "tecno_camon_30-12848.php",
+        "name": "Camon 30",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-30-premier-5g-r.jpg"
+      },
+      {
+        "id": "Pova 6 Pro",
+        "details": "Tecno Pova 6 Pro Android smartphone. Announced Feb 2024. Features 6.78″  display, Dimensity 6080 chipset, 6000 mAh battery, 256 GB storage, 12 GB RAM.",
+        "path": "tecno_pova_6_pro-12830.php",
+        "name": "Pova 6 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/tecno-pova-6-pro-11.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "DOOGEE",
+    "cellphones": [
+      {
+        "id": "T30 Max",
+        "details": "Doogee T30 Max Android tablet. Announced Mar 2024. Features 12.4″  display, Helio G99 chipset, 10800 mAh battery, 512 GB storage, 8 GB RAM.",
+        "path": "doogee_t30_max-12869.php",
+        "name": "T30 Max",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/doogee-t30-max.jpg"
+      },
+      {
+        "id": "DK10",
+        "details": "Doogee DK10 Android smartphone. Announced Feb 2024. Features 6.67″  display, Dimensity 8020 chipset, 5150 mAh battery, 512 GB storage, 12 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass.",
+        "path": "doogee_dk10-12858.php",
+        "name": "DK10",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/doogee-dk10.jpg"
+      },
+      {
+        "id": "Smini",
+        "details": "Doogee Smini Android smartphone. Announced Oct 2023. Features 4.5″  display, Helio G99 chipset, 3000 mAh battery, 256 GB storage, 8 GB RAM, MIL-STD-810H compliant.",
+        "path": "doogee_smini-12647.php",
+        "name": "Smini",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/doogee-smini.jpg"
+      },
+      {
+        "id": "V30 Pro",
+        "details": "Doogee V30 Pro Android smartphone. Announced Oct 2023. Features 6.58″  display, Dimensity 7050 chipset, 10800 mAh battery, 512 GB storage, 12 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 5.",
+        "path": "doogee_v30_pro-12634.php",
+        "name": "V30 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/googee-v30-pro-.jpg"
+      },
+      {
+        "id": "V31GT",
+        "details": "Doogee V31GT Android smartphone. Announced Sep 2023. Features 6.58″  display, Dimensity 1080 chipset, 10800 mAh battery, 256 GB storage, 12 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 5.",
+        "path": "doogee_v31gt-12573.php",
+        "name": "V31GT",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/googee-v31gt.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "BLACKVIEW",
+    "cellphones": [
+      {
+        "id": "BL9000",
+        "details": "Blackview BL9000 Android smartphone. Announced Jan 2024. Features 6.78″  display, Dimensity 8020 chipset, 8800 mAh battery, 512 GB storage, 12 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass Victus.",
+        "path": "blackview_bl9000-12795.php",
+        "name": "BL9000",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/blackview-bl9000.jpg"
+      },
+      {
+        "id": "BL8000",
+        "details": "Blackview BL8000 Android smartphone. Announced Jan 2024. Features 6.78″  display, Dimensity 7050 chipset, 8800 mAh battery, 512 GB storage, 12 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 5.",
+        "path": "blackview_bl8000-12794.php",
+        "name": "BL8000",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/blackview-bl8000.jpg"
+      },
+      {
+        "id": "Oscal Pad 16",
+        "details": "Blackview Oscal Pad 16 Android tablet. Announced Jan 2024. Features 10.5″  display, Unisoc T606 chipset, 8200 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "blackview_oscal_pad_16-12793.php",
+        "name": "Oscal Pad 16",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/blackview-oscal-pad16.jpg"
+      },
+      {
+        "id": "Oscal Pad 18",
+        "details": "Blackview Oscal Pad 18 Android tablet. Announced Dec 2023. Features 10.95″  display, Unisoc Tiger T616 chipset, 8800 mAh battery, 256 GB storage, 12 GB RAM.",
+        "path": "blackview_oscal_pad_18-12739.php",
+        "name": "Oscal Pad 18",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/blackview-oscal-pad-18.jpg"
+      },
+      {
+        "id": "Oscal Tiger 12",
+        "details": "Blackview Oscal Tiger 12 Android smartphone. Announced Nov 2023. Features 6.78″  display, Helio G99 chipset, 5000 mAh battery, 256 GB storage, 12 GB RAM.",
+        "path": "blackview_oscal_tiger_12-12701.php",
+        "name": "Oscal Tiger 12",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/blackview-oscal-tiger12.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "CUBOT",
+    "cellphones": [
+      {
+        "id": "Tab 60",
+        "details": "Cubot Tab 60 Android tablet. Announced Feb 2024. Features 10.1″  display, Allwinner A523 chipset, 6000 mAh battery, 128 GB storage, 8 GB RAM.",
+        "path": "cubot_tab_60-12857.php",
+        "name": "Tab 60",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/cubot-tab60-.jpg"
+      },
+      {
+        "id": "Tab 50",
+        "details": "Cubot Tab 50 Android tablet. Announced Feb 2024. Features 10.4″  display, Helio G99 chipset, 7500 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "cubot_tab_50-12856.php",
+        "name": "Tab 50",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/cubot-tab50.jpg"
+      },
+      {
+        "id": "KingKong 8",
+        "details": "Cubot KingKong 8 Android smartphone. Announced Oct 2023. Features 6.53″  display, MT8788V chipset, 10600 mAh battery, 256 GB storage, 12 GB RAM.",
+        "path": "cubot_kingkong_8-12640.php",
+        "name": "KingKong 8",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/cubot-kingkong-8.jpg"
+      },
+      {
+        "id": "Note 40",
+        "details": "Cubot Note 40 Android smartphone. Announced Oct 2023. Features 6.56″  display, Unisoc T606 chipset, 5200 mAh battery, 256 GB storage, 6 GB RAM.",
+        "path": "cubot_note_40-12627.php",
+        "name": "Note 40",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/cubot-note-40.jpg"
+      },
+      {
+        "id": "Tab 40",
+        "details": "Cubot Tab 40 Android tablet. Announced Sep 2023. Features 10.4″  display, Unisoc Tiger T616 chipset, 7000 mAh battery, 128 GB storage, 8 GB RAM.",
+        "path": "cubot_tab_40-12554.php",
+        "name": "Tab 40",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/cubot-tab40.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "OUKITEL",
+    "cellphones": [
+      {
+        "id": "WP33 Pro",
+        "details": "Oukitel WP33 Pro Android smartphone. Announced Jan 2024. Features 6.6″  display, Dimensity 6100+ chipset, 22000 mAh battery, 256 GB storage, 8 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 5.",
+        "path": "oukitel_wp33_pro-12781.php",
+        "name": "WP33 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oukitel-wp33pro.jpg"
+      },
+      {
+        "id": "OT8",
+        "details": "Oukitel OT8 Android tablet. Announced Jan 2024. Features 11.0″  display, Unisoc T606 chipset, 8800 mAh battery, 256 GB storage, 6 GB RAM, Corning Gorilla Glass 5.",
+        "path": "oukitel_ot8-12782.php",
+        "name": "OT8",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oukitel-ot8.jpg"
+      },
+      {
+        "id": "WP30 Pro",
+        "details": "Oukitel WP30 Pro Android smartphone. Announced Oct 2023. Features 6.78″  display, Dimensity 8050 chipset, 11000 mAh battery, 512 GB storage, 12 GB RAM, MIL-STD-810H compliant, Corning Gorilla Glass 5.",
+        "path": "oukitel_wp30_pro-12669.php",
+        "name": "WP30 Pro",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oukitel-wp30-pro.jpg"
+      },
+      {
+        "id": "OT5",
+        "details": "Oukitel OT5 Android tablet. Announced Oct 2023. Features 12.0″  display, Helio G99 chipset, 11000 mAh battery, 256 GB storage, 12 GB RAM, Corning Gorilla Glass 5.",
+        "path": "oukitel_ot5-12670.php",
+        "name": "OT5",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oukitel-ot5-.jpg"
+      },
+      {
+        "id": "RT7 5G",
+        "details": "Oukitel RT7 5G Android tablet. Announced Aug 2023. Features 10.1″  display, Dimensity 720 chipset, 32000 mAh battery, 256 GB storage, 12 GB RAM, MIL-STD-810H compliant.",
+        "path": "oukitel_rt7_5g-12672.php",
+        "name": "RT7 5G",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oukitel-rt7.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "ITEL",
+    "cellphones": [
+      {
+        "id": "P55+",
+        "details": "itel P55+ Android smartphone. Announced Jan 2024. Features 6.6″  display, Unisoc T606 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "itel_p55+-12809.php",
+        "name": "P55+",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/itel-p55-plus.jpg"
+      },
+      {
+        "id": "P55",
+        "details": "itel P55 Android smartphone. Announced Jan 2024. Features 6.6″  display, Unisoc T606 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM.",
+        "path": "itel_p55-12808.php",
+        "name": "P55",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/itel-p55.jpg"
+      },
+      {
+        "id": "A70",
+        "details": "itel A70 Android smartphone. Announced Oct 2023. Features 6.6″  display, Unisoc T603 chipset, 5000 mAh battery, 256 GB storage, 4 GB RAM.",
+        "path": "itel_a70-12704.php",
+        "name": "A70",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/itel-a70.jpg"
+      },
+      {
+        "id": "P55 5G",
+        "details": "itel P55 5G Android smartphone. Announced Sep 2023. Features 6.6″  display, Dimensity 6080 chipset, 5000 mAh battery, 128 GB storage, 6 GB RAM.",
+        "path": "itel_p55_5g-12604.php",
+        "name": "P55 5G",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/itel-power-55.jpg"
+      },
+      {
+        "id": "S23+",
+        "details": "itel S23+ Android smartphone. Announced Sep 2023. Features 6.78″  display, Unisoc Tiger T616 chipset, 5000 mAh battery, 256 GB storage, 8 GB RAM, Corning Gorilla Glass 5.",
+        "path": "itel_s23+-12571.php",
+        "name": "S23+",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/itel-s23-plus-.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "TCL",
+    "cellphones": [
+      {
+        "id": "50 5G",
+        "details": "TCL 50 5G Android smartphone. Announced Feb 2024. Features 6.6″  display, Dimensity 6100+ chipset, 5010 mAh battery, 128 GB storage, 4 GB RAM.",
+        "path": "tcl_50_5g-12842.php",
+        "name": "50 5G",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-5g-.jpg"
+      },
+      {
+        "id": "50 SE",
+        "details": "TCL 50 SE Android smartphone. Announced Feb 2024. Features 6.78″  display, Helio G88 chipset, 5010 mAh battery, 256 GB storage, 6 GB RAM.",
+        "path": "tcl_50_se-12841.php",
+        "name": "50 SE",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-50-se-.jpg"
+      },
+      {
+        "id": "501",
+        "details": "TCL 501 Android smartphone. Announced Feb 2024. Features 6.0″  display, Helio G36 chipset, 3000 mAh battery, 32 GB storage, 2 GB RAM.",
+        "path": "tcl_501-12840.php",
+        "name": "501",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-501.jpg"
+      },
+      {
+        "id": "505",
+        "details": "TCL 505 Android smartphone. Announced Feb 2024. Features 6.75″  display, Helio G36 chipset, 5010 mAh battery, 128 GB storage, 4 GB RAM.",
+        "path": "tcl_505-12823.php",
+        "name": "505",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-505.jpg"
+      },
+      {
+        "id": "Tab 10L Gen2",
+        "details": "TCL Tab 10L Gen2 Android tablet. Announced Aug 2023. Features 10.1″  display, MT8766B chipset, 6000 mAh battery, 32 GB storage, 3 GB RAM.",
+        "path": "tcl_tab_10l_gen2-12538.php",
+        "name": "Tab 10L Gen2",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/tcl-tab-10l-gen2.jpg"
+      }
+    ]
+  }
+]

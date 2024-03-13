@@ -21,7 +21,7 @@ export class ReferencesCommand extends Command {
             page.waitForSelector("#review-body > div");
         
             const data = await page.$$eval('#review-body > div > ul > li', (data) => {
-                const slice = data.slice(0, 1/*start, end*/);
+                const slice = data.slice(0, 5/*start, end*/);
                 return slice.map($reference => {
                     const $link = $reference.querySelector("a");
                     const $Details = $reference.querySelector("img");
