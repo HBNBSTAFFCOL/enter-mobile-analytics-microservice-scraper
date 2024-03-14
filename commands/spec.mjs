@@ -7,27 +7,34 @@ const specStorage = new JsonFileStorage('spec.json');
 export class SpecCommand extends Command {
     async execute(source) {
         const spec = [];
-        /*
+/*
         const browser = await puppeteer.launch({
             headless: false,
         });
 
         const page = await browser.newPage();
         page.setDefaultNavigationTimeout(0);
-        */
+*/
         const pathReferences = await config.referencesStorage.read();
 
         for (const key of pathReferences) {
             const { brand, cellphones } = key;
-
+/*
             const browser = await puppeteer.launch({
                 headless: false,
             });
             const page = await browser.newPage();
             page.setDefaultNavigationTimeout(0);
-
+*/
             for (const keyRef of cellphones) {
                 const { details, path, name, image } = keyRef;
+
+                const browser = await puppeteer.launch({
+                    headless: false,
+                });
+                const page = await browser.newPage();
+                page.setDefaultNavigationTimeout(0);
+
                 await page.goto(`${config.baseURL}/${path}`);
                 page.waitForSelector("#specs-list");
                
@@ -66,9 +73,13 @@ export class SpecCommand extends Command {
                     detail: details,
                     image: image,
                 });
+                await browser.close();
+                await new Promise(r => setTimeout(r, 3000));
             }
+/*
             await browser.close();
             await new Promise(r => setTimeout(r, 3000));
+*/
         }
         /*await browser.close();*/
         console.log(spec);

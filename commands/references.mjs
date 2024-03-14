@@ -5,23 +5,29 @@ import { config } from "./config.mjs";
 export class ReferencesCommand extends Command {
     async execute(source/*start, end*/) {
         const references = [];
+/*
         const browser = await puppeteer.launch({
             headless: false,
         });
-
         const page = await browser.newPage();
         page.setDefaultNavigationTimeout(0);
-
+*/
         const pathBrands = await config.brandsStorage.read();
 
         for (const key of pathBrands) {
             const { path, name } = key;
+
+            const browser = await puppeteer.launch({
+                headless: false,
+            });
+            const page = await browser.newPage();
+            page.setDefaultNavigationTimeout(0);
         
             await page.goto(`${config.baseURL}/${path}`);
             page.waitForSelector("#review-body > div");
         
             const data = await page.$$eval('#review-body > div > ul > li', (data) => {
-                const slice = data.slice(0, 5/*start, end*/);
+                const slice = data.slice(0, 42/*start, end*/);
                 return slice.map($reference => {
                     const $link = $reference.querySelector("a");
                     const $Details = $reference.querySelector("img");
@@ -45,12 +51,17 @@ export class ReferencesCommand extends Command {
                     brand: name,            
                     cellphones: data,
             });
+
+            await browser.close();
+            await new Promise(r => setTimeout(r, 1000));
         }
         console.log(references);
             for (const reference of references){
                 await config.referencesStorage.create(reference);
             }
+ /*           
         await browser.close();
+*/
     }
     get usage() {
         return "<reference>"
