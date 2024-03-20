@@ -83,9 +83,9 @@ export class SpecCommand extends Command {
         }
         /*await browser.close();*/
         console.log(spec);
-                for (const specs of spec){
-                    await specStorage.create(specs);
-                }
+        for (const specs of spec){
+            await specStorage.create(specs);
+        }
     }
     get usage() {
         return "<spec>"
