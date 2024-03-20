@@ -1,7 +1,5 @@
-//const fs = require('fs');
-//const { exec } = require('child_process');
 
-// Define una interfaz para los comandos
+// Defines an interface for commands
 export class Command {
     execute() {
         throw new Error('Método execute no implementado');
@@ -19,10 +17,10 @@ export class MyCLI {
     constructor(commands) {
         this.commands = commands;
 
-        // Obtener los argumentos de la línea de comandos
+        // Get command line arguments
         const [, , command, ...args] = process.argv;
 
-        // Verificar si se proporcionó un comando válido
+        // Check if a valid command was provided
         if (this.commands.hasOwnProperty(command)) {
             this.commands[command].execute(...args);
         } else {

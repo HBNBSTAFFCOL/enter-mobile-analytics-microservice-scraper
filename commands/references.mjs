@@ -3,15 +3,9 @@ import puppeteer from 'puppeteer';
 import { config } from "./config.mjs";
 
 export class ReferencesCommand extends Command {
-    async execute(source/*start, end*/) {
+    async execute(source) {
         const references = [];
-/*
-        const browser = await puppeteer.launch({
-            headless: false,
-        });
-        const page = await browser.newPage();
-        page.setDefaultNavigationTimeout(0);
-*/
+
         const pathBrands = await config.brandsStorage.read();
 
         for (const key of pathBrands) {
@@ -27,7 +21,7 @@ export class ReferencesCommand extends Command {
             page.waitForSelector("#review-body > div");
         
             const data = await page.$$eval('#review-body > div > ul > li', (data) => {
-                const slice = data.slice(0, 42/*start, end*/);
+                const slice = data.slice(0, 42);
                 return slice.map($reference => {
                     const $link = $reference.querySelector("a");
                     const $Details = $reference.querySelector("img");
@@ -55,13 +49,9 @@ export class ReferencesCommand extends Command {
             await browser.close();
             await new Promise(r => setTimeout(r, 1000));
         }
-        console.log(references);
-            for (const reference of references){
-                await config.referencesStorage.create(reference);
-            }
- /*           
-        await browser.close();
-*/
+        for (const reference of references){
+            await config.referencesStorage.create(reference);
+        }
     }
     get usage() {
         return "<reference>"
