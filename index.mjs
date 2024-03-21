@@ -9,5 +9,5 @@ new MyCLI({
     brand: new BrandCommand(),
     reference: new ReferencesCommand(),
     spec: new SpecCommand(),
-    dataSet: new DataBaseCommand(), 
+    dataSet: new DataBaseCommand(),
 });

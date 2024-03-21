@@ -38,9 +38,9 @@ export class DataBaseCommand extends Command {
                 return numericValue ? parseFloat(numericValue[0]) : null; // Convert to number if a numeric value is found
             }
 
-            // Multiply the price by 4000
+            // Multiply the price by 10000
             const originalPrice = misc?.attributes.find(attr => attr.attributes === "Price")?.characteristics;
-            const multipliedPrice = originalPrice ? extractNumericValue(originalPrice) * 4000 : null;
+            const multipliedPrice = originalPrice ? extractNumericValue(originalPrice) * 10000 : null;
 
             return {
                 id: uuidv4(),
@@ -66,6 +66,7 @@ export class DataBaseCommand extends Command {
                 sensors: features?.attributes.find(attr => attr.attributes === "Sensors")?.characteristics?.split(',')[0]?.trim()
             };
         }
+        console.log(transformedData);
 
         //Storage in a new JSON file
         for (const data of transformedData){
